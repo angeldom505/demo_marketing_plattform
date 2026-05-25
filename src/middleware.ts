@@ -1,10 +1,10 @@
 import { NextResponse, type NextRequest } from "next/server";
 
-// DEMO MODE: auth bypass — all routes accessible without login
+// DEMO MODE: show login page, bypass real auth on dashboard routes
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  if (pathname === "/login" || pathname === "/") {
-    return NextResponse.redirect(new URL("/dashboard", request.url));
+  if (pathname === "/") {
+    return NextResponse.redirect(new URL("/login", request.url));
   }
   return NextResponse.next({ request });
 }

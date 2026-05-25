@@ -2,29 +2,29 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
+
+const DEMO_EMAIL    = "demo@portafolio.com";
+const DEMO_PASSWORD = "sonrie1234";
 
 export default function LoginPage() {
   const [email, setEmail]       = useState("");
   const [password, setPassword] = useState("");
   const [error, setError]       = useState("");
   const [loading, setLoading]   = useState(false);
-  const router  = useRouter();
-  const supabase = createClient();
+  const router = useRouter();
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError("");
     setLoading(true);
-    const { error } = await supabase.auth.signInWithPassword({ email, password });
-    if (error) {
+    await new Promise(r => setTimeout(r, 600));
+    if (email === DEMO_EMAIL && password === DEMO_PASSWORD) {
+      router.push("/dashboard");
+    } else {
       setError("Correo o contraseña incorrectos");
       setLoading(false);
-      return;
     }
-    router.push("/dashboard");
-    router.refresh();
   }
 
   return (
@@ -221,6 +221,24 @@ export default function LoginPage() {
               {loading ? "Entrando…" : "Entrar"}
             </button>
           </form>
+        </div>
+
+        {/* Demo credentials hint */}
+        <div style={{
+          marginTop: 20,
+          width: "100%",
+          padding: "12px 16px",
+          background: "rgba(243,97,31,0.07)",
+          border: "0.5px solid rgba(243,97,31,0.25)",
+          borderRadius: 10,
+          textAlign: "center",
+        }}>
+          <p style={{ margin: "0 0 4px", fontSize: 10, color: "rgba(255,255,255,0.35)", fontFamily: '"IBM Plex Mono", monospace', textTransform: "uppercase", letterSpacing: "0.08em" }}>
+            Acceso demo
+          </p>
+          <p style={{ margin: 0, fontSize: 12, color: "rgba(255,255,255,0.55)", fontFamily: '"IBM Plex Mono", monospace' }}>
+            demo@portafolio.com · sonrie1234
+          </p>
         </div>
 
         {/* Footer */}

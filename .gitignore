@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+
+# Env files — NUNCA commitear
+.env
+.env.local
+.env.*.local
+
+# Google service account — NUNCA commitear
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!tailwind.config.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local data (fotos pesadas no van al repo)
+desarrollos/*/fotos/
+
+# Supabase local
+supabase/.temp/
+.vercel
+scripts/.sync_cursor

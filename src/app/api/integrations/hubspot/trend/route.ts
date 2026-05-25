@@ -12,18 +12,18 @@ function makeSupabase() {
 export const revalidate = 0;
 
 const MOCK_TREND = [
-  { periodo: "Ene", leads: 198 },
-  { periodo: "Feb", leads: 234 },
-  { periodo: "Mar", leads: 287 },
-  { periodo: "Abr", leads: 312 },
-  { periodo: "May", leads: 391 },
-  { periodo: "Jun", leads: 356 },
-  { periodo: "Jul", leads: 421 },
-  { periodo: "Ago", leads: 398 },
-  { periodo: "Sep", leads: 445 },
-  { periodo: "Oct", leads: 467 },
-  { periodo: "Nov", leads: 512 },
-  { periodo: "Dic", leads: 489 },
+  { fecha: "2025-06", count: 412  },
+  { fecha: "2025-07", count: 498  },
+  { fecha: "2025-08", count: 534  },
+  { fecha: "2025-09", count: 567  },
+  { fecha: "2025-10", count: 621  },
+  { fecha: "2025-11", count: 698  },
+  { fecha: "2025-12", count: 743  },
+  { fecha: "2026-01", count: 812  },
+  { fecha: "2026-02", count: 867  },
+  { fecha: "2026-03", count: 934  },
+  { fecha: "2026-04", count: 987  },
+  { fecha: "2026-05", count: 1072 },
 ];
 
 // GET /api/integrations/hubspot/trend

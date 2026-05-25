@@ -30,7 +30,7 @@ Primer nivel con 2 habitaciones con clósets de madera, baño completo compartid
 Segundo nivel con master suite, baño completo, vestidor, terraza y área de home office.
 Precio desde 2,493,000 pesos mexicanos.
 Mensualidad desde 28,000 pesos mexicanos.
-Link Casa modelo Recinto Plus: https://www.hogaresunion.com/casas-en-venta-pachuca-basalto-hu/balsalto-hu
+Link Casa modelo Recinto Plus: https://www.nexus_suite.com/casas-en-venta-pachuca-basalto-hu/balsalto-hu
 Recorrido Virtual de la Casa modelo Recinto Plus: https://my.matterport.com/show/?m=EpDmGPaYKz2
 Departamento modelo Creta Planta Baja: Cuenta con 100 metros cuadrados de construcción, 2 habitaciones y 2 baños completos.
 Sala y comedor conectados, armario de blancos, cocina equipada, cuarto de lavado, jardín trasero, área de home office, (habitación principal con baño completo independiente) y 1 cajón de estacionamiento.

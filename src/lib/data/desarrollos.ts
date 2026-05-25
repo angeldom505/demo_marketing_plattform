@@ -1,4 +1,4 @@
-// HU Marketing Suite — shared data and types
+// Nexus Suite — shared data and types
 
 export const REGION_COLORS: Record<string, string> = {
   'Quintana Roo': '#4A90D9',

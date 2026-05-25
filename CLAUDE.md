@@ -1,4 +1,4 @@
-# HUMS — Hogares Unión Marketing System
+# Nexus Suite — Nexus Suite Marketing System
 
 ## Guía operativa para humanos y agentes de IA
 
@@ -10,15 +10,15 @@ Este archivo es la guía principal de contexto para cualquier persona o agente d
 
 Debe leerse antes de hacer cambios en código, estructura, prompts, integraciones, documentación, generación de contenido o automatizaciones.
 
-HUMS es el proyecto oficial actual. No debe mezclarse con repositorios, nombres, estructuras o decisiones anteriores salvo que exista una instrucción explícita y documentada en este repositorio.
+Nexus Suite es el proyecto oficial actual. No debe mezclarse con repositorios, nombres, estructuras o decisiones anteriores salvo que exista una instrucción explícita y documentada en este repositorio.
 
 ---
 
-## 1. Qué es HUMS
+## 1. Qué es Nexus Suite
 
-HUMS significa **Hogares Unión Marketing System**.
+Nexus Suite significa **Nexus Suite Marketing System**.
 
-Es una plataforma de marketing inmobiliario con IA para Hogares Unión.
+Es una plataforma de marketing inmobiliario con IA para Nexus Suite.
 
 Su objetivo es automatizar y mejorar la producción de contenido diferenciado para desarrollos inmobiliarios en México.
 
@@ -35,7 +35,7 @@ El sistema debe ayudar a producir, organizar y eventualmente publicar:
 - videos basados en assets reales
 - contenido segmentado por desarrollo, región, audiencia y etapa comercial
 
-HUMS no debe producir contenido genérico.
+Nexus Suite no debe producir contenido genérico.
 
 El objetivo es convertir materia prima inmobiliaria validada en campañas de marketing accionables, medibles y diferenciadas por desarrollo.
 
@@ -43,7 +43,7 @@ El objetivo es convertir materia prima inmobiliaria validada en campañas de mar
 
 ## 2. Problema que resuelve
 
-Hogares Unión opera múltiples desarrollos inmobiliarios en diferentes regiones.
+Nexus Suite opera múltiples desarrollos inmobiliarios en diferentes regiones.
 
 Cada desarrollo tiene:
 
@@ -57,7 +57,7 @@ Cada desarrollo tiene:
 
 El problema es que producir contenido diferenciado para todos los desarrollos requiere mucho tiempo, coordinación y criterio estratégico.
 
-HUMS busca centralizar la materia prima, activar agentes de IA especializados y convertir esa información en contenido útil para marketing, ventas, social media, paid media, conversión y analytics.
+Nexus Suite busca centralizar la materia prima, activar agentes de IA especializados y convertir esa información en contenido útil para marketing, ventas, social media, paid media, conversión y analytics.
 
 ---
 
@@ -249,7 +249,7 @@ Esta sección debe actualizarse después de cada auditoría relevante del reposi
 
 ## 9. Prioridad estratégica vs fase técnica
 
-Analytics es prioridad estratégica del producto porque HUMS debe ayudar a medir desempeño, leads, campañas, CPL, engagement, ROAS y resultados comerciales.
+Analytics es prioridad estratégica del producto porque Nexus Suite debe ayudar a medir desempeño, leads, campañas, CPL, engagement, ROAS y resultados comerciales.
 
 Eso no significa que todas las integraciones de analytics deban construirse en Fase 1.
 
@@ -982,7 +982,7 @@ Primero entender:
 
 | Término | Definición |
 |---|---|
-| Desarrollo | Proyecto inmobiliario específico de Hogares Unión. |
+| Desarrollo | Proyecto inmobiliario específico de Nexus Suite. |
 | Slug | Identificador único en formato URL/file-system para un desarrollo. |
 | Ficha | Documento con especificaciones técnicas, comerciales y descriptivas. |
 | Storytelling | Identidad narrativa, tono, diferenciadores y posicionamiento del desarrollo. |
@@ -1022,7 +1022,7 @@ Estas preguntas deben resolverse conforme avance la auditoría del repo:
 
 ## 29. Resumen ejecutivo para agentes
 
-HUMS es una plataforma de marketing inmobiliario con IA para Hogares Unión.
+Nexus Suite es una plataforma de marketing inmobiliario con IA para Nexus Suite.
 
 La unidad principal del sistema es el desarrollo inmobiliario.
 

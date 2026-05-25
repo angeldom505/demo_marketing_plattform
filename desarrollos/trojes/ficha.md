@@ -16,8 +16,8 @@ Amenidades: Alberca climatizada (exclusiva del modelo Cobalto), cancha de pádel
 
 ## Links Generales
 
-Sitio Web de Trojes Residencial: https://www.hogaresunion.com/casas-y-departamentos-en-venta-puebla-trojes-residencial
-Agenda Visita a Trojes Residencial: https://citas.hogaresunion.mx/meetings/las-trojes/meet-desarrollo-lifestyle-trojes-residencial
+Sitio Web de Trojes Residencial: https://www.nexus_suite.com/casas-y-departamentos-en-venta-puebla-trojes-residencial
+Agenda Visita a Trojes Residencial: https://citas.nexus.ai/meetings/las-trojes/meet-desarrollo-lifestyle-trojes-residencial
 
 ## Modelo Disponible en Trojes
 
@@ -26,5 +26,5 @@ Sala y comedor conectados, cocina equipada, cuarto de lavado, habitación princi
 El modelo en planta baja cuenta con jardín, modelos de 1 a 3 niveles cuentan con 2 balcones.
 Precio desde 1,364,000 pesos mexicanos.
 Mensualidades desde 14,000pesos mexicanos.
-Sitio web del Departamento modelo Cobalto: https://www.hogaresunion.com/casas-y-departamentos-en-venta-puebla-trojes-residencial/cobalto-2?hsLang=en
+Sitio web del Departamento modelo Cobalto: https://www.nexus_suite.com/casas-y-departamentos-en-venta-puebla-trojes-residencial/cobalto-2?hsLang=en
 Recorrido Virtual del Departamento modelo Cobalto: https://my.matterport.com/show/?m=CUvpUKxF67k

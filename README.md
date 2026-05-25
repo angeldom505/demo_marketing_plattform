@@ -1,4 +1,4 @@
-# HUMS — Hogares Unión Marketing System
+# Nexus Suite — Nexus Suite Marketing System
 
 Plataforma de marketing inmobiliario con IA. Produce contenido diferenciado para 18 desarrollos en 7 regiones de México — copy, imagen, video, email, ads y parrillas completas con publicación automática a redes sociales.
 

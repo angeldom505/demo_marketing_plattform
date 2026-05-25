@@ -16,7 +16,7 @@ export function Header({ view, slug, onNavigate, onOpenCmdK, onGenerate }: Heade
   const desarrollo = slug ? DESARROLLOS.find((d) => d.slug === slug) : null;
 
   const crumbs: { label: string; onClick?: () => void }[] = [
-    { label: "HU Marketing Suite", onClick: () => onNavigate("dashboard") },
+    { label: "Nexus Suite", onClick: () => onNavigate("dashboard") },
   ];
   if (slug && desarrollo) {
     crumbs.push({ label: "Desarrollos", onClick: () => onNavigate("desarrollos") });

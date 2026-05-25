@@ -58,7 +58,7 @@ AUKENA entra a un mercado en expansión acelerada: +55% de plusvalía acumulada 
 
 > Este es el argumento más poderoso que tiene AUKENA y prácticamente no se usa.
 
-**Bali Residencial & Sports Club** es el desarrollo que precede directamente a AUKENA en el mismo predio, construido por Hogares Unión / HU Lifestyle.
+**Bali Residencial & Sports Club** es el desarrollo que precede directamente a AUKENA en el mismo predio, construido por Nexus Suite / HU Lifestyle.
 
 | Dato | Cifra |
 |------|-------|
@@ -367,7 +367,7 @@ Estos datos son armas para ventas y contenido. Usarlos siempre con fuente.
 "Selvanova tiene 4.7 estrellas y 741 reseñas — respeto eso. Pero mira lo que tienes: $32,900/m² vs. $26,900/m². Y sin Sports Club completo. En AUKENA no solo tienes una casa, tienes un cambio de hábitos incluido."
 
 **vs. Vía Quxtal:**
-"Precio por m² más bajo, sí. Pero su developer no tiene proyectos entregados documentados. Hogares Unión tiene 45 años y 3,172 viviendas certificadas. Cuando vas a firmar escrituras en otro estado, el historial del developer es todo."
+"Precio por m² más bajo, sí. Pero su developer no tiene proyectos entregados documentados. Nexus Suite tiene 45 años y 3,172 viviendas certificadas. Cuando vas a firmar escrituras en otro estado, el historial del developer es todo."
 
 **vs. Almazara:**
 "SADASI construyó 400,000 casas. Eso es su fortaleza y su límite. Almazara es una casa con alberca. AUKENA es un Sports Club con casas. No compiten en la misma categoría."

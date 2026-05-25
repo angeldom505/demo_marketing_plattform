@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-This workflow defines how HUMS should generate Instagram/Facebook captions for AUKENA in Spanish through a specialized agentic sequence with structured JSON output.
+This workflow defines how Nexus Suite should generate Instagram/Facebook captions for AUKENA in Spanish through a specialized agentic sequence with structured JSON output.
 
 This document covers **Step 1 only** of the AUKENA agentic system roadmap:
 - Copy first

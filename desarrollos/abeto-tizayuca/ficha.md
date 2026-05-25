@@ -26,7 +26,7 @@ Planta baja con sala y comedor conectados, cocina equipada, jardín trasero, med
 Primer nivel con 3 habitaciones (dos de ellas con baño completo compartido y habitación principal con baño completo).
 Precio desde 1,833,100 pesos mexicanos.
 Mensualidad desde 20,000 pesos mexicanos.
-Link de la Casa modelo Platino: https://www.hogaresunion.com/casas-en-venta-hidalgo-abeto-hu/modelo-platino-abeto
+Link de la Casa modelo Platino: https://www.nexus_suite.com/casas-en-venta-hidalgo-abeto-hu/modelo-platino-abeto
 Recorrido Virtual de la Casa modelo Platino: https://my.matterport.com/show/?m=VCFgEc215wk
 Casa modelo Recinto (últimas 10 casas): Cuenta con 132.98 metros cuadrados de construcción, 90 metros cuadrados de terreno, 3 niveles y 2.5 baños.
 Planta baja con sala y comedor compartidos, cocina equipada, medio baño, jardín trasero, cuarto de servicio y 2 cajones de estacionamiento.
@@ -34,7 +34,7 @@ Primer nivel con 2 habitaciones con clósets, baño completo compartido y rincó
 Segundo nivel con master suite con vestidor, baño completo, terraza y área de home office.
 Precio desde 2,384,000 pesos mexicanos.
 Mensualidad desde 27,000pesos mexicanos.
-Link web de la Casa modelo Recinto: https://www.hogaresunion.com/casas-en-venta-hidalgo-abeto-hu/tizayuca-recinto-0?hsLang=en
+Link web de la Casa modelo Recinto: https://www.nexus_suite.com/casas-en-venta-hidalgo-abeto-hu/tizayuca-recinto-0?hsLang=en
 Recorrido Virtual de la Casa modelo Recinto: https://my.matterport.com/show/?m=hVbmcrBZas4
 Casa modelo Citrino: Cuenta con 122 metros cuadrados de construcción, 105 metros cuadrados de terreno, 3 niveles y 2.5 baños.
 Planta baja con sala y comedor conectados, cocina equipada, cuarto de lavado, jardín trasero, medio baño y 1 cajón de estacionamiento.

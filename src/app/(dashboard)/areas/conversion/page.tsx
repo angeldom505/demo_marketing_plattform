@@ -76,10 +76,10 @@ const WA_TEMPLATES: WaTemplate[] = [
 ];
 
 const LANDINGS: Landing[] = [
-  { nombre: "Aukena · Tulum Caribe", url: "aukena.hogaresunion.mx", visitas: 4821, leads: 487, conversión: 10.1, cpl: 142 },
-  { nombre: "Turquesa · Playa del Carmen", url: "turquesa.hogaresunion.mx", visitas: 3247, leads: 312, conversión: 9.6, cpl: 156 },
-  { nombre: "Bonza · Querétaro", url: "bonza.hogaresunion.mx", visitas: 2134, leads: 178, conversión: 8.3, cpl: 167 },
-  { nombre: "Meriden · Mérida Norte", url: "meriden.hogaresunion.mx", visitas: 1876, leads: 134, conversión: 7.1, cpl: 198 },
+  { nombre: "Aukena · Tulum Caribe", url: "demo.nexus.ai/aukena", visitas: 4821, leads: 487, conversión: 10.1, cpl: 142 },
+  { nombre: "Turquesa · Playa del Carmen", url: "demo.nexus.ai/turquesa", visitas: 3247, leads: 312, conversión: 9.6, cpl: 156 },
+  { nombre: "Bonza · Querétaro", url: "demo.nexus.ai/bonza", visitas: 2134, leads: 178, conversión: 8.3, cpl: 167 },
+  { nombre: "Meriden · Mérida Norte", url: "demo.nexus.ai/meriden", visitas: 1876, leads: 134, conversión: 7.1, cpl: 198 },
 ];
 
 // ── KPI data ──────────────────────────────────────────────────────────

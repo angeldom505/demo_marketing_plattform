@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "HU Marketing Suite",
-  description: "Plataforma de marketing inmobiliario con IA — Hogares Unión",
-  icons: { icon: "/logo-hu.png", apple: "/logo-hu.png" },
+  title: "Nexus Suite",
+  description: "Plataforma de marketing con IA",
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function RootLayout({

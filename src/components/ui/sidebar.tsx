@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import NextImage from "next/image";
 import {
   HomeIcon,
   Building2Icon,
@@ -85,27 +84,28 @@ export function Sidebar({
           height: 72,
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
-          borderBottom: "1px solid rgba(255,255,255,0.05)",
+          gap: 10,
+          borderBottom: "1px solid rgba(255,255,255,0.06)",
           cursor: "pointer",
-          padding: "0 14px",
+          padding: collapsed ? "0" : "0 18px",
           overflow: "hidden",
+          justifyContent: collapsed ? "center" : "flex-start",
         }}
       >
         <div style={{
-          width: collapsed ? 38 : 42,
-          height: collapsed ? 38 : 42,
-          flexShrink: 0,
-          transition: "width 280ms cubic-bezier(.4,0,.2,1), height 280ms cubic-bezier(.4,0,.2,1)",
-          position: "relative",
+          width: 36, height: 36, borderRadius: 10, flexShrink: 0,
+          background: "linear-gradient(135deg, #F3611F 0%, #7C3AED 100%)",
+          display: "grid", placeItems: "center",
+          boxShadow: "0 4px 16px rgba(243,97,31,0.35)",
         }}>
-          <NextImage
-            src="/logo-hu.png"
-            alt="Hogares Unión"
-            fill
-            style={{ objectFit: "contain", borderRadius: 6 }}
-          />
+          <span style={{ color: "white", fontSize: 16, fontWeight: 800, letterSpacing: "-0.03em" }}>N</span>
         </div>
+        {!collapsed && (
+          <div style={{ lineHeight: 1.1 }}>
+            <div style={{ color: "white", fontSize: 15, fontWeight: 700, letterSpacing: "-0.02em" }}>Nexus</div>
+            <div style={{ color: "rgba(255,255,255,0.35)", fontSize: 10, fontWeight: 500, letterSpacing: "0.06em", textTransform: "uppercase" }}>Suite</div>
+          </div>
+        )}
       </div>
 
       {/* Workspace switcher */}
@@ -143,7 +143,7 @@ export function Sidebar({
             >
               MX
             </div>
-            <span style={{ flex: 1, textAlign: "left" }}>HU Marketing · MX</span>
+            <span style={{ flex: 1, textAlign: "left" }}>Nexus Suite</span>
             <ChevronDownIcon size={14} />
           </button>
         </div>
@@ -290,19 +290,14 @@ export function Sidebar({
                 >
                   {des?.logo ? (
                     <div style={{
-                      width: 56, height: 30,
-                      background: "rgba(255,255,255,0.97)",
-                      borderRadius: 6,
+                      width: 30, height: 30,
+                      background: "linear-gradient(135deg, #F3611F22, #7C3AED22)",
+                      border: "1px solid rgba(255,255,255,0.1)",
+                      borderRadius: 8,
                       display: "flex", alignItems: "center", justifyContent: "center",
-                      flexShrink: 0, overflow: "hidden", padding: "3px 6px",
+                      flexShrink: 0,
                     }}>
-                      <NextImage
-                        src={des.logo}
-                        alt={p.name}
-                        width={50}
-                        height={24}
-                        style={{ objectFit: "contain", maxHeight: 24, width: "auto" }}
-                      />
+                      <span style={{ fontSize: 11, fontWeight: 700, color: "#F3611F" }}>{p.name.slice(0,2).toUpperCase()}</span>
                     </div>
                   ) : (
                     <span style={{
@@ -362,7 +357,7 @@ export function Sidebar({
                   whiteSpace: "nowrap",
                 }}
               >
-                {userEmail ? userEmail.split("@")[0] : "Renata Calderón"}
+                {userEmail ? userEmail.split("@")[0] : "Demo User"}
               </div>
               <div
                 style={{
@@ -373,7 +368,7 @@ export function Sidebar({
                   whiteSpace: "nowrap",
                 }}
               >
-                {userEmail || "renata@hogaresunion.mx"}
+                {userEmail || "demo@nexus.ai"}
               </div>
             </div>
             <button

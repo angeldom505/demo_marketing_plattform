@@ -98,11 +98,11 @@ const CONCEPTOS = [
   { id: 1, titulo: "El Caribe como estilo de vida", desarrollo: "Aukena", tipo: "Campaña awareness", canal: "Meta + Google", estado: "activo", fecha: "Mar – Jun 2026" },
   { id: 2, titulo: "Lanzamiento Turquesa PDC", desarrollo: "Turquesa", tipo: "Lanzamiento", canal: "Meta + Email", estado: "activo", fecha: "May – Jul 2026" },
   { id: 3, titulo: "Preventa Bonza Vertical", desarrollo: "Bonza", tipo: "Preventa", canal: "Meta + LinkedIn", estado: "planeado", fecha: "Jul – Sep 2026" },
-  { id: 4, titulo: "Newsletter Mayo HU", desarrollo: "Todos", tipo: "Email masivo", canal: "Email", estado: "activo", fecha: "May 2026" },
+  { id: 4, titulo: "Newsletter Mayo", desarrollo: "Todos", tipo: "Email masivo", canal: "Email", estado: "activo", fecha: "May 2026" },
 ];
 
 const BRAND_COLORS = [
-  { name: "HU Orange", hex: "#E85D26", label: "Principal" },
+  { name: "Naranja primario", hex: "#E85D26", label: "Principal" },
   { name: "Charcoal", hex: "#2F2F2F", label: "Oscuro" },
   { name: "White", hex: "#FFFFFF", label: "Texto claro" },
   { name: "Burnt Orange", hex: "#C0441B", label: "Secundario" },
@@ -132,9 +132,9 @@ const VOICE_PRINCIPLES = [
 ];
 
 const ASSET_CARDS = [
-  { nombre: "Logo HU principal", formato: "SVG · PNG", nota: "Fondo oscuro y claro" },
-  { nombre: "Isotipo HU", formato: "SVG · PNG", nota: "Versión cuadrada y circular" },
-  { nombre: "Tipografías HU", formato: "OTF · WOFF2", nota: "DM Sans + IBM Plex Mono" },
+  { nombre: "Logo principal", formato: "SVG · PNG", nota: "Fondo oscuro y claro" },
+  { nombre: "Isotipo", formato: "SVG · PNG", nota: "Versión cuadrada y circular" },
+  { nombre: "Tipografías", formato: "OTF · WOFF2", nota: "DM Sans + IBM Plex Mono" },
 ];
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -608,14 +608,14 @@ function ConceptoRow({
   );
 }
 
-// ── Tab: Lineamientos HU ─────────────────────────────────────────────────────
+// ── Tab: Lineamientos ─────────────────────────────────────────────────────
 
 function LineamientosTab() {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
       {/* Brand colors */}
       <section>
-        <SectionLabel>Paleta de marca HU</SectionLabel>
+        <SectionLabel>Paleta de marca</SectionLabel>
         <div
           style={{
             padding: "24px",
@@ -914,7 +914,7 @@ type TabId = "briefs" | "conceptos" | "lineamientos";
 const TABS: { id: TabId; label: string; icon: React.ElementType }[] = [
   { id: "briefs",        label: "Briefs por desarrollo", icon: LayoutIcon },
   { id: "conceptos",     label: "Conceptos activos",     icon: BookOpenIcon },
-  { id: "lineamientos",  label: "Lineamientos HU",       icon: PaletteIcon },
+  { id: "lineamientos",  label: "Lineamientos",       icon: PaletteIcon },
 ];
 
 export default function CreativoPage() {

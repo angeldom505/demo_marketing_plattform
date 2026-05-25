@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
   const des = DESARROLLOS.find((d) => d.nombre === desNombre) || DESARROLLOS[0];
   const contentType = CONTENT_TYPES.find((t) => t.id === tipo)?.label || "Post Instagram";
 
-  const systemPrompt = `Eres HU·GPT, el asistente de marketing inmobiliario de Hogares Unión.
+  const systemPrompt = `Eres Nexus AI, el asistente de marketing inmobiliario.
 Generas contenido diferenciado y auténtico para desarrollos residenciales mexicanos.
 Responde siempre en español. Tono: ${tono || "Cálido"}. Sin tecnicismos innecesarios.
 Audiencia objetivo: ${audiencia || "Familia joven CDMX"}.

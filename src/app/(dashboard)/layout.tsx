@@ -6,5 +6,5 @@ export default async function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <DashboardShell userEmail="demo@hogaresunion.mx">{children}</DashboardShell>;
+  return <DashboardShell userEmail="demo@nexus.ai">{children}</DashboardShell>;
 }

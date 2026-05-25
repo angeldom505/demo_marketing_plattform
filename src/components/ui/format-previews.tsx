@@ -34,7 +34,7 @@ function InstagramPreview({ d }: { d: Desarrollo }) {
           HU
         </div>
         <div style={{ flex: 1, fontSize: 11.5, color: "white", fontWeight: 600 }}>
-          hogaresunion_mx
+          nexus_suite
           <div style={{ fontSize: 9, color: "rgba(255,255,255,0.45)", fontWeight: 400 }}>
             {d.ciudad}, {d.region}
           </div>
@@ -88,7 +88,7 @@ function InstagramPreview({ d }: { d: Desarrollo }) {
       <div style={{ padding: "0 10px 10px", color: "white", fontSize: 10.5, lineHeight: 1.4 }}>
         <div style={{ fontWeight: 600, marginBottom: 2 }}>2,341 me gusta</div>
         <div>
-          <strong>hogaresunion_mx</strong> 🌅 La playa que aún no descubren los inversionistas. A 12 minutos del aeropuerto y a 5 del mar…{" "}
+          <strong>nexus_suite</strong> 🌅 La playa que aún no descubren los inversionistas. A 12 minutos del aeropuerto y a 5 del mar…{" "}
           <span style={{ color: "rgba(255,255,255,0.5)" }}>ver más</span>
         </div>
         <div
@@ -130,7 +130,7 @@ function EmailPreview({ d }: { d: Desarrollo }) {
         }}
       >
         <div style={{ color: "#666", marginBottom: 2 }}>
-          <strong>De:</strong> Equipo Aukena &lt;hola@hogaresunion.mx&gt;
+          <strong>De:</strong> Equipo Aukena &lt;hola@nexus.ai&gt;
         </div>
         <div style={{ color: "#666" }}>
           <strong>Para:</strong> renata@familia.mx
@@ -138,7 +138,7 @@ function EmailPreview({ d }: { d: Desarrollo }) {
       </div>
       <div style={{ padding: "14px 18px 4px", fontFamily: "-apple-system, sans-serif" }}>
         <div style={{ fontSize: 15, fontWeight: 700, color: "#1a1a1a", letterSpacing: "-0.01em" }}>
-          Renata, recordamos cuándo te interesó {d.nombre} 🌊
+          Demo User, recordamos cuándo te interesó {d.nombre} 🌊
         </div>
         <div style={{ fontSize: 12, color: "#777", marginTop: 2 }}>
           Reactivamos tu cotización con un beneficio exclusivo
@@ -161,7 +161,7 @@ function EmailPreview({ d }: { d: Desarrollo }) {
         </div>
       </div>
       <div style={{ padding: "0 18px 16px", fontSize: 13, lineHeight: 1.55, color: "#2a2a2a" }}>
-        <p style={{ margin: "0 0 10px" }}>Hola Renata,</p>
+        <p style={{ margin: "0 0 10px" }}>Hola Demo User,</p>
         <p style={{ margin: "0 0 10px" }}>
           Hace 3 meses nos contactaste para conocer {d.nombre}. Sabemos que la decisión de comprar segunda casa no se toma en una llamada…
         </p>
@@ -181,7 +181,7 @@ function EmailPreview({ d }: { d: Desarrollo }) {
           Agendar 15 minutos →
         </div>
         <p style={{ margin: "12px 0 0", color: "#888", fontSize: 11, fontFamily: "-apple-system, sans-serif" }}>
-          — Equipo {d.nombre} · Hogares Unión
+          — Equipo {d.nombre} · Nexus Suite
         </p>
       </div>
     </div>
@@ -218,7 +218,7 @@ function AdPreview({ d }: { d: Desarrollo }) {
           HU
         </div>
         <div style={{ flex: 1, fontSize: 12, color: "white", fontWeight: 600 }}>
-          Hogares Unión
+          Nexus Suite
           <div style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", fontWeight: 400, display: "flex", alignItems: "center", gap: 4 }}>
             Anunciado · <span>🌐</span>
           </div>
@@ -247,7 +247,7 @@ function AdPreview({ d }: { d: Desarrollo }) {
       </div>
       <div style={{ padding: "10px 12px", background: "#1a1a1a", display: "flex", alignItems: "center", gap: 10 }}>
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ fontSize: 10.5, color: "rgba(255,255,255,0.55)" }}>hogaresunion.mx</div>
+          <div style={{ fontSize: 10.5, color: "rgba(255,255,255,0.55)" }}>nexus.ai</div>
           <div
             style={{
               fontSize: 12.5,
@@ -349,7 +349,7 @@ function BlogPreview({ d }: { d: Desarrollo }) {
             color: "#888",
           }}
         >
-          <span>HU Insights</span>
+          <span>Nexus Insights</span>
           <span>·</span>
           <span>6 min de lectura</span>
           <span>·</span>

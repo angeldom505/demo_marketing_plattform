@@ -221,7 +221,7 @@ export function GenerateModal({ open, onClose, defaultDesarrollo, defaultType = 
               <WandIcon size={16} />
             </div>
             <div>
-              <div style={{ color: "white", fontSize: 15, fontWeight: 700 }}>Generar con HU·GPT</div>
+              <div style={{ color: "white", fontSize: 15, fontWeight: 700 }}>Generar con Nexus AI</div>
               <div style={{ color: "rgba(255,255,255,0.5)", fontSize: 11.5 }}>Claude · Haiku · streaming</div>
             </div>
           </div>

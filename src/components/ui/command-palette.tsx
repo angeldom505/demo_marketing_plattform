@@ -324,7 +324,7 @@ export function CommandPalette({ open, onClose, onNavigate, onGenerate }: Comman
           <span style={{ display: "flex", alignItems: "center", gap: 6 }}><Kbd>esc</Kbd> Cerrar</span>
           <div style={{ flex: 1 }} />
           <span style={{ display: "inline-flex", alignItems: "center", gap: 5 }}>
-            <span style={{ color: "#F3611F", fontWeight: 600 }}>HU·GPT</span> powered
+            <span style={{ color: "#F3611F", fontWeight: 600 }}>Nexus AI</span> powered
           </span>
         </div>
       </div>

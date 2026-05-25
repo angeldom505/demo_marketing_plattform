@@ -179,7 +179,7 @@ const ASSETS = [
   },
   {
     id: 8,
-    nombre: "HU Brand — Newsletter Q2",
+    nombre: "Newsletter Q2",
     desarrollo: "Corporativo",
     tipo: "Composición",
     formato: "Email header",
@@ -252,7 +252,7 @@ const BRIEFS = [
 ];
 
 const BRAND_COLORS = [
-  { nombre: "Naranja HU", hex: "#E85D26", uso: "Acento primario, CTAs, highlights" },
+  { nombre: "Naranja primario", hex: "#E85D26", uso: "Acento primario, CTAs, highlights" },
   { nombre: "Teal éxito", hex: "#1D9E75", uso: "Logros, leads, estados positivos" },
   { nombre: "Púrpura", hex: "#7F77DD", uso: "Creatividad, conceptos, briefs" },
   { nombre: "Azul datos", hex: "#4A90D9", uso: "Analytics, portales, datos" },
@@ -552,7 +552,7 @@ function BrandTab() {
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
       {/* Colors */}
       <Panel style={{ padding: "20px 22px" }}>
-        <div style={{ fontSize: 11, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", color: T.textSecondary, marginBottom: 16 }}>Paleta de marca HUMS</div>
+        <div style={{ fontSize: 11, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", color: T.textSecondary, marginBottom: 16 }}>Paleta de marca</div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 12 }}>
           {BRAND_COLORS.map(c => (
             <div key={c.hex} style={{ display: "flex", flexDirection: "column", gap: 10 }}>
@@ -575,7 +575,7 @@ function BrandTab() {
             <div style={{ fontSize: 9, color: T.textGhost, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 12 }}>Display / Cuerpo</div>
             <div style={{ fontSize: 28, color: T.textPrimary, fontFamily: SANS, fontWeight: 800, letterSpacing: "-0.02em", marginBottom: 8 }}>DM Sans</div>
             <div style={{ fontSize: 13, color: T.textSecondary, fontFamily: SANS, lineHeight: 1.6 }}>
-              Hogares Unión — Residencial de calidad para cada etapa de tu vida.
+              Nexus Suite — Residencial de calidad para cada etapa de tu vida.
             </div>
             <div style={{ marginTop: 12, display: "flex", gap: 10 }}>
               {[400, 500, 700, 800].map(w => (
@@ -622,7 +622,7 @@ function BrandTab() {
         <div style={{ fontSize: 11, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.08em", color: T.textSecondary, marginBottom: 16 }}>Recursos descargables</div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 12 }}>
           {[
-            { nombre: "Brand Kit HU completo", desc: "Logos, colores, tipografías, iconos", size: "14.2 MB", tipo: "ZIP" },
+            { nombre: "Brand Kit completo", desc: "Logos, colores, tipografías, iconos", size: "14.2 MB", tipo: "ZIP" },
             { nombre: "Plantillas Canva editables", desc: "Posts, stories, banners por formato", size: "8.7 MB", tipo: "CANVA" },
             { nombre: "Guidelines PDF", desc: "Manual de marca versión Q2 2026", size: "3.4 MB", tipo: "PDF" },
           ].map(r => (

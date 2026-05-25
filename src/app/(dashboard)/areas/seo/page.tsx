@@ -37,7 +37,7 @@ const ORGANIC_TREND = [
 const TOP_PAGES = [
   { url: "/aukena", titulo: "AUKENA Residences — Preventa Tulum 2026", visitas: 1284, pos: 3.2, ctr: 12.4, cambio: 340 },
   { url: "/turquesa", titulo: "Nuevo Residencial Turquesa — Cancún", visitas: 876, pos: 5.8, ctr: 8.7, cambio: 120 },
-  { url: "/calculadora-credito", titulo: "Calculadora de Capacidad de Compra HU", visitas: 743, pos: 6.1, ctr: 14.2, cambio: 210 },
+  { url: "/calculadora-credito", titulo: "Calculadora de Capacidad de Compra", visitas: 743, pos: 6.1, ctr: 14.2, cambio: 210 },
   { url: "/blog/invertir-tulum", titulo: "¿Vale la pena invertir en Tulum en 2026?", visitas: 621, pos: 4.4, ctr: 9.8, cambio: 187 },
   { url: "/bonza", titulo: "Bonza — Residencial Querétaro", visitas: 498, pos: 8.3, ctr: 6.2, cambio: -34 },
   { url: "/meriden", titulo: "Meriden Cabo Norte — Mérida", visitas: 412, pos: 9.1, ctr: 5.4, cambio: 67 },
@@ -509,7 +509,7 @@ function BacklinksTab() {
         <SectionTitle>Oportunidades de link building detectadas</SectionTitle>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 12 }}>
           {[
-            { titulo: "PR inmobiliaria digital", desc: "3 medios especializados con DA > 45 sin cobertura de HU", accion: "Proponer nota de prensa" },
+            { titulo: "PR inmobiliaria digital", desc: "3 medios especializados con DA > 45 sin cobertura", accion: "Proponer nota de prensa" },
             { titulo: "Blogs de arquitectura", desc: "8 blogs activos en MX con audiencia de perfil inversor", accion: "Outreach colaboración" },
             { titulo: "Recuperar links perdidos", desc: "12 backlinks perdidos en los últimos 30 días, 4 recuperables", accion: "Contactar administradores" },
           ].map(o => (

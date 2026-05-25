@@ -17,28 +17,28 @@ import { T } from "@/styles/tokens";
 const MONO = '"IBM Plex Mono", monospace';
 const SANS = '"DM Sans", sans-serif';
 
-const ADMIN_EMAIL = "adominguez@hogaresunion.mx";
+const ADMIN_EMAIL = "alex@nexus.ai";
 
 // ── Equipo ────────────────────────────────────────────────────────────────────
 
 const TEAM = [
   {
     id: "angel",
-    nombre: "Angel Domínguez",
+    nombre: "Alex Rivera",
     puesto: "Data Manager ",
     area: "Data Innovation",
-    email: "adominguez@hogaresunion.mx",
-    bio: "Estrategia digital, performance e innovación con IA para los desarrollos de Hogares Unión.",
+    email: "alex@nexus.ai",
+    bio: "Estrategia de datos, performance e innovación con IA para campañas de alto impacto.",
     color: T.orange,
     initials: "AD",
     linkedIn: "#",
   },
   {
     id: "diana",
-    nombre: "Diana Cruz",
+    nombre: "Diana Mora",
     puesto: "Coordinadora Conversion",
     area: "Conversion",
-    email: "dcruz@hogaresunion.mx",
+    email: "diana@nexus.ai",
     bio: "Estrategia de conversion por desarrollos.",
     color: T.teal,
     initials: "RC",
@@ -49,7 +49,7 @@ const TEAM = [
     nombre: "generico",
     puesto: "Coordinador Paid Media",
     area: "Paid Media",
-    email: "@hogaresunion.mx",
+    email: "@nexus.ai",
     bio: "Campañas de performance en Meta Ads y Google. CPL optimizado, ROAS medible por desarrollo.",
     color: T.blue,
     initials: "CM",
@@ -57,10 +57,10 @@ const TEAM = [
   },
   {
     id: "ale",
-    nombre: "Alejandra Belmont",
+    nombre: "Sofía Vega",
     puesto: "Coordinadora Creativa",
     area: "Diseño",
-    email: "abelmont@hogaresunion.mx",
+    email: "abelmont@nexus.ai",
     bio: "Identidad visual de desarrollos, assets digitales, briefs creativos y brand guidelines.",
     color: T.purple,
     initials: "SR",
@@ -71,7 +71,7 @@ const TEAM = [
     nombre: "Alan",
     puesto: "Social Media Manager",
     area: "Social Media",
-    email: "aestrada@hogaresunion.mx",
+    email: "aestrada@nexus.ai",
     bio: "Parrilla editorial, comunidad y estrategia orgánica en Instagram, Facebook y TikTok.",
     color: "#C47F1A",
     initials: "MT",
@@ -82,7 +82,7 @@ const TEAM = [
     nombre: "generico",
     puesto: "generico",
     area: "generico",
-    email: "-@hogaresunion.mx",
+    email: "-@nexus.ai",
     bio: "Dashboard de KPIs, atribución de leads y reportes ejecutivos de performance comercial.",
     color: "#6B87A1",
     initials: "AL",
@@ -505,7 +505,7 @@ export default function EquipoPage() {
         }}>
           <div style={{ width: 6, height: 6, borderRadius: "50%", background: T.teal }} />
           <span style={{ fontSize: 11, color: "rgba(255,255,255,0.55)", fontFamily: MONO, letterSpacing: "0.08em" }}>
-            {TEAM.length} miembros · Marketing HU
+            {TEAM.length} miembros · Marketing Nexus
           </span>
         </div>
         <h1 style={{
@@ -520,7 +520,7 @@ export default function EquipoPage() {
           El equipo
         </h1>
         <p style={{ margin: 0, color: "rgba(255,255,255,0.4)", fontSize: 14, fontFamily: SANS, lineHeight: 1.6 }}>
-          Las personas detrás de la estrategia de marketing de Hogares Unión
+          Las personas detrás de la estrategia de marketing
         </p>
       </div>
 

@@ -234,7 +234,7 @@ export default function DashboardPage() {
             {greeting}
           </p>
           <h1 style={{ margin: 0, fontSize: 38, fontWeight: 800, letterSpacing: "-0.03em", color: T.textPrimary, lineHeight: 1.1 }}>
-            <span style={{ color: T.orange }}>HU</span> Marketing Suite
+            <span style={{ background: "linear-gradient(90deg, #F3611F, #7C3AED)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Nexus</span> Suite
           </h1>
           <p style={{ margin: "6px 0 0", color: T.textSecondary, fontSize: 14 }}>
             {DESARROLLOS.length} desarrollos activos

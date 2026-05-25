@@ -98,10 +98,75 @@ export interface HistorialItem {
 }
 
 export const HISTORIAL_KEY = 'hu_historial';
+export const HISTORIAL_SEEDED_KEY = 'hu_historial_seeded_v1';
+
+const DEMO_HISTORIAL: HistorialItem[] = [
+  {
+    id: "demo_1",
+    tipo: "post",
+    tipoLabel: "Post Instagram",
+    desarrollo: "Aukena",
+    tono: "Aspiracional",
+    audiencia: "Millennials inversores CDMX",
+    channel: "Instagram",
+    createdAt: new Date(Date.now() - 1000 * 60 * 18).toISOString(),
+    output: `✨ Vivir frente al mar deja de ser un sueño cuando decides que es una realidad.\n\nAukena Residences nació para quienes entienden que el tiempo es el bien más valioso — y merece gastarse bien.\n\n🌊 Vista al mar desde tu ventana\n🏡 Diseño arquitectónico de primer nivel\n🔐 Comunidad privada con amenidades premium\n\nQuedan pocas unidades disponibles en la Fase 2. Agenda tu visita antes de que alguien más tome tu lugar.\n\n👉 Link en bio para más información.\n\n#AukenaResidences #VidaFrenteAlMar #CancúnLujo #InversionInmobiliaria #PlayaCaribe`,
+  },
+  {
+    id: "demo_2",
+    tipo: "email",
+    tipoLabel: "Email / Newsletter",
+    desarrollo: "Turquesa",
+    tono: "Cálido",
+    audiencia: "Familia joven CDMX",
+    channel: "Mail",
+    createdAt: new Date(Date.now() - 1000 * 60 * 60 * 3).toISOString(),
+    output: `Asunto: Tu familia merece Turquesa — y este es el momento\n\nHola,\n\nSabemos que buscar el hogar ideal puede sentirse abrumador. Por eso queremos simplificarte la decisión.\n\nTurquesa es el desarrollo que combina lo que más importa: diseño que enamora, espacios que respiran y una comunidad donde tus hijos pueden crecer seguros.\n\n¿Qué incluye tu nuevo hogar en Turquesa?\n\n• Cocina integral con islas\n• Cuartos amplios con iluminación natural\n• Patio trasero privado\n• Acceso a club de residentes: alberca, gimnasio y áreas verdes\n• Seguridad 24/7\n\nEsta semana tenemos visitas guiadas disponibles sin cita previa. Solo escríbenos y coordinamos.\n\nCon gusto,\nEquipo Turquesa`,
+  },
+  {
+    id: "demo_3",
+    tipo: "ad",
+    tipoLabel: "Anuncio / Ad Copy",
+    desarrollo: "Mériden",
+    tono: "Directo",
+    audiencia: "Inversionistas Monterrey",
+    channel: "Megaphone",
+    createdAt: new Date(Date.now() - 1000 * 60 * 60 * 9).toISOString(),
+    output: `📢 MÉRIDEN — El activo que tu portafolio necesitaba.\n\n**Headline:** Lujo en Mérida. Plusvalía garantizada. Entrega 2025.\n\n**Variante A:**\nMériden Cabo Norte | Departamentos premium en el corazón de Mérida.\nPreventa con precios de lanzamiento. Últimas unidades.\n→ Agenda tu asesoría\n\n**Variante B (retargeting):**\nSigues pensando en Mériden?\nEsta semana cerramos preventa de Fase 1.\nNo dejes pasar tu precio de entrada.\n→ Reserva hoy con $50,000\n\n**Variante C (awareness):**\nMérida es la ciudad del futuro de México.\nMériden es el lugar donde quieres estar cuando llegue ese futuro.\n→ Conoce el proyecto`,
+  },
+  {
+    id: "demo_4",
+    tipo: "carousel",
+    tipoLabel: "Carrusel",
+    desarrollo: "Bonza",
+    tono: "Inspiracional",
+    audiencia: "Parejas jóvenes Querétaro",
+    channel: "Carousel",
+    createdAt: new Date(Date.now() - 1000 * 60 * 60 * 26).toISOString(),
+    output: `— Slide 1 —\n5 razones para elegir Bonza como tu próximo hogar\n\n— Slide 2 —\n01. Diseño que respira\nCasas con ventilación cruzada, iluminación natural y espacios interiores que no te hacen sentir encerrado.\n\n— Slide 3 —\n02. Comunidad activa\nVecinos que se conocen, áreas comunes que se usan y una cultura de convivencia que hace la diferencia.\n\n— Slide 4 —\n03. Todo cerca\nEscuelas, supermercados, hospitales y entretenimiento a menos de 10 minutos.\n\n— Slide 5 —\n04. Inversión inteligente\nQuerétaro creció 18% en plusvalía el año pasado. Bonza está en el corazón de ese crecimiento.\n\n— Slide 6 —\n05. Financiamiento a tu medida\nTrabajas con cualquier banco, crédito Infonavit o Fovissste. Te acompañamos en el proceso.\n\n— Slide 7 —\n¿Listo para dar el paso?\nAgenda tu visita este fin de semana. Sin presión, sin compromisos.\nSolo tú, tu familia y tu futuro hogar.`,
+  },
+  {
+    id: "demo_5",
+    tipo: "blog",
+    tipoLabel: "Blog / Artículo",
+    desarrollo: "Central Park",
+    tono: "Educativo",
+    audiencia: "Primerizos compradores",
+    channel: "BookOpen",
+    createdAt: new Date(Date.now() - 1000 * 60 * 60 * 48).toISOString(),
+    output: `# Cómo elegir tu primer hogar sin arrepentirte: guía para compradores primerizos\n\nComprar tu primera casa es una de las decisiones más importantes de tu vida. También puede ser una de las más confusas si no tienes claro qué buscar. Aquí te damos los criterios que realmente importan.\n\n## 1. Ubicación sobre todo lo demás\n\nEl diseño puede renovarse. La ubicación, no. Antes de enamorarte de una fachada, revisa qué tan cerca estás de tu trabajo, de las escuelas de tus hijos y de los servicios que usas a diario.\n\n## 2. Revisa el historial del desarrollador\n\nNo compres a un desarrollador que no puedas investigar. Busca proyectos anteriores, habla con residentes y verifica que las promesas de entrega se hayan cumplido.\n\n## 3. Entiende el financiamiento antes de visitar\n\nSaber cuánto puedes pagar te ahorra tiempo y expectativas frustradas. Habla con tu banco o asesor antes de visitar propiedades.\n\n## 4. Las amenidades no son extras — son parte del valor\n\nUn desarrollo con club de residentes, áreas verdes y seguridad privada no solo mejora tu calidad de vida: también aumenta la plusvalía de tu inversión.\n\n## Por qué Central Park es la opción ideal para primerizos\n\nCentral Park Bosque Real fue diseñado pensando en familias que compran su primer hogar. Proceso de compra transparente, asesoría personalizada y opciones de financiamiento flexibles para que tu primera experiencia sea positiva desde el inicio.`,
+  },
+];
 
 export function getHistorial(): HistorialItem[] {
   if (typeof window === 'undefined') return [];
   try {
+    const seeded = localStorage.getItem(HISTORIAL_SEEDED_KEY);
+    if (!seeded) {
+      localStorage.setItem(HISTORIAL_KEY, JSON.stringify(DEMO_HISTORIAL));
+      localStorage.setItem(HISTORIAL_SEEDED_KEY, '1');
+      return DEMO_HISTORIAL;
+    }
     const raw = localStorage.getItem(HISTORIAL_KEY);
     return raw ? (JSON.parse(raw) as HistorialItem[]) : [];
   } catch {

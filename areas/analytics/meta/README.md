@@ -1,7 +1,7 @@
 # Analytics — Meta (Facebook + Instagram)
 
 ## Cuentas a conectar
-- Facebook Page: Nexus Suite / HU Lifestyle / por desarrollo
+- Facebook Page: Nexus Suite / NexusAI / por desarrollo
 - Instagram Business accounts por desarrollo
 - Meta Ads Manager: campañas de paid media
 

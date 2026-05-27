@@ -37,7 +37,7 @@ const KEYWORDS = [
   { keyword: "departamentos playa del carmen 2026", pos: 7, cambio: -1, volumen: 4200, url: "/turquesa", ctr: 6.3 },
   { keyword: "casas en mérida norte", pos: 8, cambio: 0, volumen: 3800, url: "/meriden", ctr: 5.9 },
   { keyword: "residencial en querétaro", pos: 11, cambio: 3, volumen: 3200, url: "/bonza", ctr: 4.1 },
-  { keyword: "hogares union desarrollos", pos: 1, cambio: 0, volumen: 1800, url: "/", ctr: 24.7 },
+  { keyword: "nexus suite desarrollos", pos: 1, cambio: 0, volumen: 1800, url: "/", ctr: 24.7 },
   { keyword: "departamentos en cuautlancingo puebla", pos: 12, cambio: -2, volumen: 2800, url: "/trojes", ctr: 3.8 },
   { keyword: "casas en hidalgo tizayuca", pos: 14, cambio: 1, volumen: 2400, url: "/abeto", ctr: 3.2 },
   { keyword: "fraccionamiento estado de mexico", pos: 16, cambio: 0, volumen: 6700, url: "/solares", ctr: 2.9 },

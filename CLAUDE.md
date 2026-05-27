@@ -185,7 +185,7 @@ Debe marcarse como:
 Directorio local de referencia:
 
 ```txt
-/Users/adominguezs/Proyectos/hums
+/Users/demo/Projects/nexus-suite
 ```
 
 Regla:
@@ -226,10 +226,10 @@ Esta sección debe actualizarse después de cada auditoría relevante del reposi
 
 | Módulo / área | Estado actual | Evidencia / nota |
 |---|---|---|
-| Fichas técnicas desde Drive | Implementado según documentación actual | `scripts/sync_drive.py` |
-| Storytelling por desarrollo | Parcial | AUKENA completo; otros pendientes |
-| Competencia por desarrollo | Parcial | AUKENA completo; otros requieren verificación |
-| Audiencias HubSpot | Parcial | AUKENA extraído manualmente; integración automática pendiente |
+| Fichas técnicas | Implementado según documentación actual | `desarrollos/` |
+| Storytelling por desarrollo | Parcial | Zenith Residences completo; otros pendientes |
+| Competencia por desarrollo | Parcial | Zenith Residences completo; otros requieren verificación |
+| Audiencias HubSpot | Parcial | Zenith Residences extraído manualmente; integración automática pendiente |
 | Fotos reales por desarrollo | Pendiente / parcial | Integración formal pendiente |
 | Claude Code agents | Implementado según documentación actual | `.claude/agents/` |
 | App web Next.js | Fase 1 / en construcción | Verificar contra repo |
@@ -282,7 +282,7 @@ Las integraciones completas de analytics pertenecen a Fase 2, salvo decisión ex
 La estructura objetivo es:
 
 ```txt
-hums/
+nexus-suite/
 │
 ├── desarrollos/
 │   ├── _template/
@@ -320,12 +320,6 @@ hums/
 │   ├── lib/
 │   └── types/
 │
-├── scripts/
-│   ├── sync_drive.py
-│   ├── sync_fotos.py
-│   ├── register_webhook.py
-│   └── webhook_server.py
-│
 ├── .claude/
 │   └── agents/
 │
@@ -356,7 +350,7 @@ hums/
 | `desarrollos/<slug>/campanas/` | Campañas y piezas generadas para ese desarrollo. |
 | `areas/` | Organización funcional de marketing. |
 | `src/` | Aplicación Next.js. |
-| `scripts/` | Scripts temporales o de soporte, especialmente sync con Drive. |
+| `scripts/` | Scripts temporales o de soporte (no incluidos en distribución). |
 | `.claude/agents/` | Agentes especializados para Claude Code CLI. |
 | `supabase/` | Migraciones, schema y configuración relacionada a base de datos. |
 | `docs/` | Documentación operativa, técnica y de producto. |
@@ -372,21 +366,21 @@ Nota: existe una posible inconsistencia entre “18 desarrollos activos” y la 
 
 | Slug | Desarrollo | Región | Materia prima conocida |
 |---|---|---|---|
-| `aukena` | AUKENA Residences | Quintana Roo | ficha, storytelling, competencia, audiencias |
-| `turquesa` | Nuevo Residencial Turquesa | Cancún, Q. Roo | ficha |
-| `meriden` | Meriden Cabo Norte | Mérida, Yucatán | ficha |
-| `bonza` | Bonza | Querétaro | ficha |
-| `trojes` | Trojes Residencial | Puebla | ficha |
-| `santa-fe-xochitepec` | Santa Fe Xochitepec | Morelos | ficha |
-| `aquasol-ayala` | Aquasol | Morelos | ficha |
-| `abeto-tizayuca` | Abeto | Hidalgo | ficha |
-| `basalto-pachuca` | Basalto | Hidalgo | ficha |
-| `ciudad-natura-ii` | Ciudad Natura II | Hidalgo | ficha |
-| `privadas-del-bosque` | Privadas del Bosque | Estado de México | ficha |
-| `solares-zumpango` | Solares Zumpango | Estado de México | ficha |
-| `sauz-toluca` | Sauz Valle de Toluca | Estado de México | ficha |
-| `cosmopol-coacalco` | Cosmopol | Estado de México | ficha |
-| `central-park-bosque-real` | Central Park Bosque Real | Estado de México | ficha |
+| `aukena` | Zenith Residences | Quintana Roo | ficha, storytelling, competencia, audiencias |
+| `turquesa` | Coral Bay | Playa del Carmen, Q. Roo | ficha |
+| `meriden` | Altamira | Mérida Norte, Yucatán | ficha |
+| `bonza` | Cumbres | Querétaro | ficha |
+| `trojes` | Los Claros | Puebla | ficha |
+| `santa-fe-xochitepec` | Vista Sol | Morelos | ficha |
+| `aquasol-ayala` | Brisa | Morelos | ficha |
+| `abeto-tizayuca` | Cedro Norte | Hidalgo | ficha |
+| `basalto-pachuca` | Granito | Hidalgo | ficha |
+| `ciudad-natura-ii` | Eco Reserva | Hidalgo | ficha |
+| `privadas-del-bosque` | Arboledas | Estado de México | ficha |
+| `solares-zumpango` | Los Solares | Estado de México | ficha |
+| `sauz-toluca` | Arrayán | Estado de México | ficha |
+| `cosmopol-coacalco` | Urbania | Estado de México | ficha |
+| `central-park-bosque-real` | Parque Central | Estado de México | ficha |
 
 ---
 
@@ -693,14 +687,6 @@ Estado actual documentado:
 - sync de fotos pendiente o parcial
 - webhook local temporal con `webhook_server.py`
 - migración futura a API route en Vercel
-
-Comandos documentados:
-
-```bash
-python3 scripts/sync_drive.py
-python3 scripts/sync_drive.py --force
-python3 scripts/sync_fotos.py --desarrollo aukena
-```
 
 Reglas:
 

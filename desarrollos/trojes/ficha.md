@@ -1,30 +1,31 @@
 ---
-nombre: TROJES RESIDENCIAL, Puebla
+nombre: Los Claros, Cuautlancingo, Puebla
 region: Puebla
 ---
 
-# TROJES RESIDENCIAL, Puebla
+# Los Claros — Cuautlancingo, Puebla
 
 **Región:** Puebla
 
-Precios: Departamentos desde 1,364,000 pesos mexicanos.
+Precios: Departamentos desde $1,450,000 MXN.
 Ubicación: Cuautlancingo, Puebla.
-Link Google Maps: https://maps.app.goo.gl/ptYUknNR4JyFgJt67
-Descripción y Amenidades
-Desarrollo residencial con certificación EDGE que garantiza ahorro en agua y energía eléctrica, ubicado estratégicamente cerca de la zona industrial de FINSA y el Periférico, en una de las zonas con mayor plusvalía de Cuautlancingo, Puebla.
-Amenidades: Alberca climatizada (exclusiva del modelo Cobalto), cancha de pádel, acceso controlado al residencial y en cada privada, juegos infantiles, multicancha, cancha de fut 5, área de asadores, áreas verdes, ejercitadores al aire libre, pet park, trotapista, área de calistenia y andadores.
+Link Google Maps: https://maps.demo.nexus.ai/los-claros
+
+## Descripción y Amenidades
+
+Los Claros es un desarrollo residencial moderno con certificación de eficiencia energética en Cuautlancingo, una de las zonas de mayor crecimiento en el corredor Puebla-Tlaxcala. Ideal para familias jóvenes e inversión patrimonial.
+
+Amenidades: Alberca climatizada (modelo premium), cancha de pádel, acceso controlado, juegos infantiles, multicancha, cancha de fútbol 5, área de asadores, áreas verdes, ejercitadores al aire libre, pet park, trotapista.
 
 ## Links Generales
 
-Sitio Web de Trojes Residencial: https://www.nexus_suite.com/casas-y-departamentos-en-venta-puebla-trojes-residencial
-Agenda Visita a Trojes Residencial: https://citas.nexus.ai/meetings/las-trojes/meet-desarrollo-lifestyle-trojes-residencial
+Sitio Web: https://demo.nexus.ai/los-claros
+Agendar Visita: https://demo.nexus.ai/citas/los-claros
 
-## Modelo Disponible en Trojes
+## Modelos Disponibles
 
-Departamento modelo Cobalto: Cuenta con 78 metros cuadrados, 3 habitaciones, 2 baños completos, acceso exclusivo a la alberca y 1 cajón de estacionamiento.
-Sala y comedor conectados, cocina equipada, cuarto de lavado, habitación principal con baño completo, acceso a balcón y clóset de madera, 2 habitaciones con baño completo compartido y clósets de madera.
-El modelo en planta baja cuenta con jardín, modelos de 1 a 3 niveles cuentan con 2 balcones.
-Precio desde 1,364,000 pesos mexicanos.
-Mensualidades desde 14,000pesos mexicanos.
-Sitio web del Departamento modelo Cobalto: https://www.nexus_suite.com/casas-y-departamentos-en-venta-puebla-trojes-residencial/cobalto-2?hsLang=en
-Recorrido Virtual del Departamento modelo Cobalto: https://my.matterport.com/show/?m=CUvpUKxF67k
+**Modelo Cielo:** 78 m², 3 recámaras, 2 baños, acceso a alberca, balcón, 1 cajón de estacionamiento. Cocina equipada. Precio desde $1,450,000 MXN.
+
+**Modelo Horizonte:** 95 m², 3 recámaras, 2.5 baños, roof garden privado, 2 cajones. Precio desde $1,900,000 MXN.
+
+**Modelo Meseta:** 65 m², 2 recámaras, 1 baño, jardín privado (planta baja), 1 cajón. Precio desde $1,250,000 MXN.

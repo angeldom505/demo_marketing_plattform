@@ -8,8 +8,8 @@ Plataforma de marketing inmobiliario con IA. Produce contenido diferenciado para
 
 | Componente | Estado |
 |-----------|--------|
-| Fichas técnicas (14 desarrollos) | ✅ Funcionando — sync automático desde Drive |
-| Storytelling de marca | ⚠️ Solo AUKENA — 13 pendientes |
+| Fichas técnicas (15 desarrollos) | ✅ Disponibles |
+| Storytelling de marca | ⚠️ Solo Zenith Residences — 14 pendientes |
 | Agentes de IA (Claude Code) | ✅ 6 agentes operativos |
 | Fotos reales por desarrollo | ❌ Pendiente integración |
 | Audiencias HubSpot | ❌ Pendiente |
@@ -20,7 +20,7 @@ Plataforma de marketing inmobiliario con IA. Produce contenido diferenciado para
 ## Estructura del proyecto
 
 ```
-hums/
+nexus-suite/
 ├── CLAUDE.md                    ← Guía completa del proyecto (leer primero)
 ├── data/
 │   └── desarrollos/             ← Fichas técnicas auto-generadas desde Drive
@@ -28,21 +28,7 @@ hums/
 ├── campanas/                    ← Ejemplos de contenido generado (temporal)
 ├── .claude/
 │   └── agents/                  ← Agentes especializados de marketing
-├── sync_drive.py                ← Sincronización con Google Drive
-├── register_webhook.py          ← Registro de webhook en Drive
-└── webhook_server.py            ← Servidor local temporal (se reemplaza con Vercel)
-```
-
----
-
-## Sincronizar datos desde Drive
-
-```bash
-# Solo descarga lo que cambió
-python3 sync_drive.py
-
-# Forzar re-sync completo
-python3 sync_drive.py --force
+└── .env.example                 ← Variables de entorno esperadas
 ```
 
 ---
@@ -51,13 +37,13 @@ python3 sync_drive.py --force
 
 | Región | Desarrollos | Storytelling |
 |--------|-------------|-------------|
-| Estado de México | Privadas del Bosque, Solares Zumpango, Sauz Valle de Toluca, Cosmopol Coacalco, Central Park Bosque Real | ❌ |
-| Hidalgo | Abeto Tizayuca, Basalto Pachuca, Ciudad Natura II | ❌ |
-| Mérida | Meriden Cabo Norte | ❌ |
-| Morelos | Santa Fe Xochitepec, Aquasol Ayala | ❌ |
-| Puebla | Trojes Residencial | ❌ |
-| Querétaro | Bonza Querétaro | ❌ |
-| Quintana Roo | AUKENA Residences ✅, Nuevo Residencial Turquesa | ❌ |
+| Estado de México | Arboledas, Los Solares, Arrayán, Urbania, Parque Central | ❌ |
+| Hidalgo | Cedro Norte, Granito, Eco Reserva | ❌ |
+| Yucatán | Altamira | ❌ |
+| Morelos | Vista Sol, Brisa | ❌ |
+| Puebla | Los Claros | ❌ |
+| Querétaro | Cumbres | ❌ |
+| Quintana Roo | Zenith Residences ✅, Coral Bay | ❌ |
 
 ---
 

@@ -1,18 +1,18 @@
-# AUKENA Copywriter Test Pack V1
+# Zenith Residences Copywriter Test Pack V1
 
 ## 1. Purpose
 
-This test pack validates the first specialized AUKENA copy agent.
+This test pack validates the first specialized Zenith Residences copy agent.
 
 The agent being tested is:
 
-`.claude/agents/aukena-copywriter.md`
+`.claude/agents/zenith-copywriter.md`
 
 The workflow being tested is:
 
-`docs/agents/aukena-copy-workflow-v1.md`
+`docs/agents/zenith-copy-workflow-v1.md`
 
-The goal is to verify that the agent can generate Spanish Instagram/Facebook captions as valid JSON for AUKENA.
+The goal is to verify that the agent can generate Spanish Instagram/Facebook captions as valid JSON for Zenith Residences.
 
 ## 2. Scope
 
@@ -20,7 +20,7 @@ In scope:
 - Instagram/Facebook captions
 - Spanish output
 - JSON-only responses
-- AUKENA source-grounded copy
+- Zenith Residences source-grounded copy
 - Three V1 audience/model combinations
 - Manual QA scoring
 
@@ -38,18 +38,18 @@ Out of scope:
 
 The agent must use the following sources:
 
-- `docs/agents/aukena-copy-workflow-v1.md`
-- `desarrollos/aukena/ficha.md`
-- `desarrollos/aukena/storytelling.md`
-- `desarrollos/aukena/competencia.md`
-- `desarrollos/aukena/audiencias.md`
+- `docs/agents/zenith-copy-workflow-v1.md`
+- `desarrollos/zenith/ficha.md`
+- `desarrollos/zenith/storytelling.md`
+- `desarrollos/zenith/competencia.md`
+- `desarrollos/zenith/audiencias.md`
 
 ## 4. Test execution instructions
 
 These tests should be executed in Claude Code or any environment capable of invoking the Claude Code agent.
 
 For each test:
-1. Invoke the AUKENA Copywriter Agent.
+1. Invoke the Zenith Residences Copywriter Agent.
 2. Provide the input payload.
 3. Capture the full JSON response.
 4. Validate JSON structure.
@@ -62,7 +62,7 @@ Input:
 
 ```json
 {
-  "project": "aukena",
+  "project": "zenith",
   "content_type": "caption",
   "channel": "instagram_facebook",
   "language": "es",
@@ -88,21 +88,21 @@ Input:
 
 ```json
 {
-  "project": "aukena",
+  "project": "zenith",
   "content_type": "caption",
   "channel": "instagram_facebook",
   "language": "es",
   "audience": "interior_republic_family",
   "model": "benoa",
   "objective": "awareness",
-  "topic": "primer paso accesible hacia AUKENA para una familia patrimonial",
+  "topic": "primer paso accesible hacia Zenith Residences para una familia patrimonial",
   "cta": "solicita_informacion",
   "notes": "Debe sonar familiar, patrimonial y claro; sin presión agresiva."
 }
 ```
 
 Expected behavior:
-- Should position BENOA as the accessible entry point into AUKENA.
+- Should position BENOA as the accessible entry point into Zenith Residences.
 - Should connect family wellbeing with patrimonial logic.
 - Should avoid fake urgency.
 - Should avoid generic family real estate clichés.
@@ -114,7 +114,7 @@ Input:
 
 ```json
 {
-  "project": "aukena",
+  "project": "zenith",
   "content_type": "caption",
   "channel": "instagram_facebook",
   "language": "es",
@@ -122,7 +122,7 @@ Input:
   "model": "crozet",
   "objective": "consideration",
   "topic": "reconectar con México a través de una decisión patrimonial en Playa del Carmen",
-  "cta": "conoce_aukena",
+  "cta": "conoce_zenith",
   "notes": "No hacer afirmaciones legales, fiscales o de retorno garantizado."
 }
 ```
@@ -165,7 +165,7 @@ The response must not include:
 - Audience alignment: 15
 - Model alignment: 15
 - Source grounding: 15
-- AUKENA voice: 15
+- Zenith Residences voice: 15
 - Claims safety: 15
 - CTA clarity: 10
 
@@ -206,7 +206,7 @@ If all tests score 85+:
 - proceed to V1.1 A/B caption variants or Meta Ads copy
 
 If one or more tests score 70–84:
-- update `.claude/agents/aukena-copywriter.md` with targeted refinements
+- update `.claude/agents/zenith-copywriter.md` with targeted refinements
 
 If any test scores below 70:
 - revise agent constraints before expanding scope

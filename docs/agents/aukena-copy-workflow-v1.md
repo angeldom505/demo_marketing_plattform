@@ -1,10 +1,10 @@
-# AUKENA Copy Workflow V1
+# Zenith Residences Copy Workflow V1
 
 ## 1. Purpose
 
-This workflow defines how Nexus Suite should generate Instagram/Facebook captions for AUKENA in Spanish through a specialized agentic sequence with structured JSON output.
+This workflow defines how Nexus Suite should generate Instagram/Facebook captions for Zenith Residences in Spanish through a specialized agentic sequence with structured JSON output.
 
-This document covers **Step 1 only** of the AUKENA agentic system roadmap:
+This document covers **Step 1 only** of the Zenith Residences agentic system roadmap:
 - Copy first
 - Images later
 - FAL.AI later
@@ -13,22 +13,22 @@ This document covers **Step 1 only** of the AUKENA agentic system roadmap:
 
 ## 2. Strategic principle
 
-- AUKENA copy must never default to generic real estate language.
-- Every caption must be grounded in validated AUKENA source material.
+- Zenith Residences copy must never default to generic real estate language.
+- Every caption must be grounded in validated Zenith Residences source material.
 - The workflow must convert validated project knowledge into differentiated marketing content.
 - The system must optimize for clarity, specificity, brand voice consistency, and lead generation readiness.
 
 ## 3. Canonical source material
 
-The canonical source location for this workflow is `desarrollos/aukena/`.
+The canonical source location for this workflow is `desarrollos/zenith/`.
 
-- `desarrollos/aukena/ficha.md`  
+- `desarrollos/zenith/ficha.md`  
   Technical and commercial facts: location, models, prices, amenities, links, and Matterport tours.
-- `desarrollos/aukena/storytelling.md`  
+- `desarrollos/zenith/storytelling.md`  
   Brand identity: PUV, tone, narrative territories, concept, and emotional positioning.
-- `desarrollos/aukena/competencia.md`  
+- `desarrollos/zenith/competencia.md`  
   Competitive strategy: market context, competitors, differentiators, and saturated messages to avoid.
-- `desarrollos/aukena/audiencias.md`  
+- `desarrollos/zenith/audiencias.md`  
   HubSpot audience intelligence: real segments, model traction, and funnel insights.
 
 > Note: `data/desarrollos/` and `storytellings/` can be referenced only as legacy context, not as canonical inputs for V1.
@@ -99,43 +99,43 @@ Use conservative, non-invasive wording at all times and never expose personal da
 
 Minimal V1 sequence:
 
-AUKENA Orchestrator  
+Zenith Residences Orchestrator  
 ↓  
-AUKENA Context Agent  
+Zenith Residences Context Agent  
 ↓  
-AUKENA Strategy Agent  
+Zenith Residences Strategy Agent  
 ↓  
-AUKENA Copy Agent  
+Zenith Residences Copy Agent  
 ↓  
-AUKENA QA Agent  
+Zenith Residences QA Agent  
 ↓  
 Structured JSON Output
 
-### AUKENA Orchestrator
+### Zenith Residences Orchestrator
 - **Responsibility:** interpret request and coordinate execution.
 - **Inputs:** user brief, required input contract.
 - **Outputs:** normalized task payload for downstream agents.
 - **Must not:** write final copy.
 
-### AUKENA Context Agent
-- **Responsibility:** extract relevant validated facts from canonical AUKENA files.
+### Zenith Residences Context Agent
+- **Responsibility:** extract relevant validated facts from canonical Zenith Residences files.
 - **Inputs:** normalized payload + canonical source files.
 - **Outputs:** selected facts, citations map, uncertainty flags.
 - **Must not:** invent claims or fill gaps with assumptions as facts.
 
-### AUKENA Strategy Agent
+### Zenith Residences Strategy Agent
 - **Responsibility:** define angle, funnel intent, and CTA logic.
 - **Inputs:** normalized payload + selected facts + audience/model context.
 - **Outputs:** strategy block for copy generation.
 - **Must not:** write final copy.
 
-### AUKENA Copy Agent
+### Zenith Residences Copy Agent
 - **Responsibility:** generate caption components (hook/body/CTA/hashtags) aligned with strategy.
 - **Inputs:** strategy block + fact block + voice rules.
 - **Outputs:** draft caption block in JSON-ready structure.
 - **Must not:** invent data, availability, discounts, guarantees, or unsupported urgency.
 
-### AUKENA QA Agent
+### Zenith Residences QA Agent
 - **Responsibility:** validate factuality, voice, compliance, and usability.
 - **Inputs:** full draft JSON output + source context.
 - **Outputs:** approval decision, score, risks, and revision notes.
@@ -143,20 +143,20 @@ Structured JSON Output
 
 ## 8. Agent responsibilities
 
-### AUKENA Orchestrator
+### Zenith Residences Orchestrator
 - Interprets the user request.
 - Detects audience, model, channel, format, and objective.
 - Requests missing critical information if needed.
 - Routes the task through the workflow.
 - Does not write final copy.
 
-### AUKENA Context Agent
-- Reads and extracts relevant facts from AUKENA source material.
+### Zenith Residences Context Agent
+- Reads and extracts relevant facts from Zenith Residences source material.
 - Selects only facts relevant to the requested audience/model.
 - Flags missing or uncertain data.
 - Does not invent claims.
 
-### AUKENA Strategy Agent
+### Zenith Residences Strategy Agent
 - Chooses the message angle.
 - Defines funnel stage.
 - Defines primary insight.
@@ -164,14 +164,14 @@ Structured JSON Output
 - Chooses competitive and/or audience insights to apply.
 - Does not write final copy.
 
-### AUKENA Copy Agent
+### Zenith Residences Copy Agent
 - Writes the caption.
 - Produces hook, body, CTA, and hashtags.
-- Uses AUKENA voice and tone.
+- Uses Zenith Residences voice and tone.
 - Avoids generic real estate language.
 - Does not invent data, availability, discounts, or guarantees.
 
-### AUKENA QA Agent
+### Zenith Residences QA Agent
 - Reviews output against brand, facts, compliance, and usability.
 - Flags risks.
 - Approves, requests revision, or marks `needs_context`.
@@ -181,7 +181,7 @@ Structured JSON Output
 
 ```json
 {
-  "project": "aukena",
+  "project": "zenith",
   "content_type": "caption",
   "channel": "instagram_facebook",
   "language": "es",
@@ -189,7 +189,7 @@ Structured JSON Output
   "model": "recinto | benoa | crozet",
   "objective": "awareness | consideration | lead_generation | nurturing",
   "topic": "string",
-  "cta": "agenda_asesoria | solicita_informacion | conoce_aukena | descarga_brochure",
+  "cta": "agenda_asesoria | solicita_informacion | conoce_zenith | descarga_brochure",
   "notes": "optional string"
 }
 ```
@@ -206,8 +206,8 @@ If any required field is missing or ambiguous, the workflow should return `needs
 
 ```json
 {
-  "project": "aukena",
-  "workflow": "aukena-copy-workflow-v1",
+  "project": "zenith",
+  "workflow": "zenith-copy-workflow-v1",
   "content_type": "caption",
   "channel": "instagram_facebook",
   "language": "es",
@@ -320,7 +320,7 @@ The QA Agent must verify:
 - Does it avoid prohibited claims?
 - Does it avoid generic real estate copy?
 - Is the CTA clear?
-- Is the tone aligned with AUKENA?
+- Is the tone aligned with Zenith Residences?
 - Is the JSON structure valid?
 - Is it ready for human review?
 
@@ -332,8 +332,8 @@ The following are **illustrative examples only**, not final approved campaign co
 
 ```json
 {
-  "project": "aukena",
-  "workflow": "aukena-copy-workflow-v1",
+  "project": "zenith",
+  "workflow": "zenith-copy-workflow-v1",
   "content_type": "caption",
   "channel": "instagram_facebook",
   "language": "es",
@@ -349,15 +349,15 @@ The following are **illustrative examples only**, not final approved campaign co
   },
   "caption": {
     "hook": "No se trata de escapar: se trata de decidir mejor.",
-    "body": "RECINTO en AUKENA conecta una vida más estratégica con un activo respaldado por información clara del proyecto.",
+    "body": "RECINTO en Zenith Residences conecta una vida más estratégica con un activo respaldado por información clara del proyecto.",
     "cta": "Agenda una asesoría y conoce si RECINTO es tu siguiente decisión patrimonial.",
-    "hashtags": ["#AUKENA", "#Recinto", "#DecisiónPatrimonial"]
+    "hashtags": ["#Zenith Residences", "#Recinto", "#DecisiónPatrimonial"]
   },
   "source_context": {
     "files_used": [
-      "desarrollos/aukena/ficha.md",
-      "desarrollos/aukena/storytelling.md",
-      "desarrollos/aukena/audiencias.md"
+      "desarrollos/zenith/ficha.md",
+      "desarrollos/zenith/storytelling.md",
+      "desarrollos/zenith/audiencias.md"
     ],
     "facts_used": [
       "RECINTO como modelo prioritario en tracción",
@@ -378,8 +378,8 @@ The following are **illustrative examples only**, not final approved campaign co
 
 ```json
 {
-  "project": "aukena",
-  "workflow": "aukena-copy-workflow-v1",
+  "project": "zenith",
+  "workflow": "zenith-copy-workflow-v1",
   "content_type": "caption",
   "channel": "instagram_facebook",
   "language": "es",
@@ -395,15 +395,15 @@ The following are **illustrative examples only**, not final approved campaign co
   },
   "caption": {
     "hook": "Patrimonio también es disfrutar el proceso en familia.",
-    "body": "BENOA abre una puerta de entrada a AUKENA para familias que priorizan orden, visión de largo plazo y uso real.",
+    "body": "BENOA abre una puerta de entrada a Zenith Residences para familias que priorizan orden, visión de largo plazo y uso real.",
     "cta": "Solicita información y revisa si BENOA se ajusta a tu etapa actual.",
-    "hashtags": ["#AUKENA", "#Benoa", "#PatrimonioFamiliar"]
+    "hashtags": ["#Zenith Residences", "#Benoa", "#PatrimonioFamiliar"]
   },
   "source_context": {
     "files_used": [
-      "desarrollos/aukena/ficha.md",
-      "desarrollos/aukena/storytelling.md",
-      "desarrollos/aukena/audiencias.md"
+      "desarrollos/zenith/ficha.md",
+      "desarrollos/zenith/storytelling.md",
+      "desarrollos/zenith/audiencias.md"
     ],
     "facts_used": [
       "BENOA como punto de entrada",
@@ -424,8 +424,8 @@ The following are **illustrative examples only**, not final approved campaign co
 
 ```json
 {
-  "project": "aukena",
-  "workflow": "aukena-copy-workflow-v1",
+  "project": "zenith",
+  "workflow": "zenith-copy-workflow-v1",
   "content_type": "caption",
   "channel": "instagram_facebook",
   "language": "es",
@@ -441,16 +441,16 @@ The following are **illustrative examples only**, not final approved campaign co
   },
   "caption": {
     "hook": "Volver a México también puede ser una estrategia patrimonial.",
-    "body": "CROZET en AUKENA integra aspiración, pertenencia y una propuesta respaldada por información verificable del desarrollo.",
-    "cta": "Conoce AUKENA y agenda una conversación para evaluar tu perfil.",
-    "hashtags": ["#AUKENA", "#Crozet", "#MexicanosEnElExtranjero"]
+    "body": "CROZET en Zenith Residences integra aspiración, pertenencia y una propuesta respaldada por información verificable del desarrollo.",
+    "cta": "Conoce Zenith Residences y agenda una conversación para evaluar tu perfil.",
+    "hashtags": ["#Zenith Residences", "#Crozet", "#MexicanosEnElExtranjero"]
   },
   "source_context": {
     "files_used": [
-      "desarrollos/aukena/ficha.md",
-      "desarrollos/aukena/storytelling.md",
-      "desarrollos/aukena/audiencias.md",
-      "desarrollos/aukena/competencia.md"
+      "desarrollos/zenith/ficha.md",
+      "desarrollos/zenith/storytelling.md",
+      "desarrollos/zenith/audiencias.md",
+      "desarrollos/zenith/competencia.md"
     ],
     "facts_used": [
       "CROZET para posicionamiento aspiracional",
@@ -482,7 +482,7 @@ The following are **illustrative examples only**, not final approved campaign co
 ## 18. Implementation notes
 
 This document should later inform:
-- A specialized Claude Code agent: `.claude/agents/aukena-copywriter.md`
+- A specialized Claude Code agent: `.claude/agents/zenith-copywriter.md`
 - Runtime app prompts under `src/lib/prompts` or `src/lib/agents` if/when runtime generation is implemented
 - UI contracts for frontend/backend communication
 

@@ -25,21 +25,21 @@ export interface Desarrollo {
 }
 
 export const DESARROLLOS: Desarrollo[] = [
-  { slug: 'aukena', nombre: 'Aukena', region: 'Quintana Roo', ciudad: 'Tulum', tipologia: 'Residencial premium', unidades: 84, logo: '/logos/aukena.png', ficha: true, storytelling: true, competencia: true, audiencias: true },
-  { slug: 'turquesa', nombre: 'Turquesa', region: 'Quintana Roo', ciudad: 'Playa del Carmen', tipologia: 'Departamentos', unidades: 120, logo: '/logos/turquesa.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'meriden', nombre: 'Meriden', region: 'Yucatán', ciudad: 'Mérida Norte', tipologia: 'Residencial', unidades: 96, logo: '/logos/meriden.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'bonza', nombre: 'Bonza', region: 'Querétaro', ciudad: 'El Marqués', tipologia: 'Vertical', unidades: 142, logo: '/logos/bonza.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'trojes', nombre: 'Trojes', region: 'Puebla', ciudad: 'Cuautlancingo', tipologia: 'Horizontal', unidades: 210, logo: '/logos/trojes.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'santa-fe-xochitepec', nombre: 'Santa Fe Xochitepec', region: 'Morelos', ciudad: 'Xochitepec', tipologia: 'Residencial', unidades: 180, logo: '/logos/santa-fe.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'aquasol-ayala', nombre: 'Aquasol Ayala', region: 'Morelos', ciudad: 'Ayala', tipologia: 'Interés medio', unidades: 256, logo: '/logos/aquasol.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'abeto-tizayuca', nombre: 'Abeto Tizayuca', region: 'Hidalgo', ciudad: 'Tizayuca', tipologia: 'Horizontal', unidades: 312, logo: '/logos/abeto.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'basalto-pachuca', nombre: 'Basalto Pachuca', region: 'Hidalgo', ciudad: 'Pachuca', tipologia: 'Vertical', unidades: 168, logo: '/logos/basalto.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'ciudad-natura-ii', nombre: 'Ciudad Natura II', region: 'Hidalgo', ciudad: 'Mineral de la Reforma', tipologia: 'Mixto', unidades: 420, logo: '/logos/ciudad-natura.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'privadas-del-bosque', nombre: 'Privadas del Bosque', region: 'Estado de México', ciudad: 'Huehuetoca', tipologia: 'Residencial', unidades: 290, logo: '/logos/privadas-del-bosque.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'solares-zumpango', nombre: 'Solares Zumpango', region: 'Estado de México', ciudad: 'Zumpango', tipologia: 'Horizontal', unidades: 380, logo: '/logos/solares.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'sauz-toluca', nombre: 'Sauz Toluca', region: 'Estado de México', ciudad: 'Toluca', tipologia: 'Vertical', unidades: 156, logo: '/logos/sauz.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'cosmopol-coacalco', nombre: 'Cosmopol Coacalco', region: 'Estado de México', ciudad: 'Coacalco', tipologia: 'Mixto', unidades: 198, logo: '/logos/cosmopol.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
-  { slug: 'central-park-bosque-real', nombre: 'Central Park Bosque Real', region: 'Estado de México', ciudad: 'Huixquilucan', tipologia: 'Premium', unidades: 72, logo: '/logos/central-park.png', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'aukena', nombre: 'Zenith Residences', region: 'Quintana Roo', ciudad: 'Playa del Carmen', tipologia: 'Residencial premium', unidades: 84, logo: '/logos/aukena.svg', ficha: true, storytelling: true, competencia: true, audiencias: true },
+  { slug: 'turquesa', nombre: 'Coral Bay', region: 'Quintana Roo', ciudad: 'Playa del Carmen', tipologia: 'Departamentos', unidades: 120, logo: '/logos/turquesa.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'meriden', nombre: 'Altamira', region: 'Yucatán', ciudad: 'Mérida Norte', tipologia: 'Residencial', unidades: 96, logo: '/logos/meriden.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'bonza', nombre: 'Cumbres', region: 'Querétaro', ciudad: 'El Marqués', tipologia: 'Vertical', unidades: 142, logo: '/logos/bonza.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'trojes', nombre: 'Los Claros', region: 'Puebla', ciudad: 'Cuautlancingo', tipologia: 'Horizontal', unidades: 210, logo: '/logos/trojes.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'santa-fe-xochitepec', nombre: 'Vista Sol', region: 'Morelos', ciudad: 'Xochitepec', tipologia: 'Residencial', unidades: 180, logo: '/logos/santa-fe.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'aquasol-ayala', nombre: 'Brisa', region: 'Morelos', ciudad: 'Ayala', tipologia: 'Interés medio', unidades: 256, logo: '/logos/aquasol.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'abeto-tizayuca', nombre: 'Cedro Norte', region: 'Hidalgo', ciudad: 'Tizayuca', tipologia: 'Horizontal', unidades: 312, logo: '/logos/abeto.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'basalto-pachuca', nombre: 'Granito', region: 'Hidalgo', ciudad: 'Pachuca', tipologia: 'Vertical', unidades: 168, logo: '/logos/basalto.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'ciudad-natura-ii', nombre: 'Eco Reserva', region: 'Hidalgo', ciudad: 'Mineral de la Reforma', tipologia: 'Mixto', unidades: 420, logo: '/logos/ciudad-natura.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'privadas-del-bosque', nombre: 'Arboledas', region: 'Estado de México', ciudad: 'Huehuetoca', tipologia: 'Residencial', unidades: 290, logo: '/logos/privadas-del-bosque.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'solares-zumpango', nombre: 'Los Solares', region: 'Estado de México', ciudad: 'Zumpango', tipologia: 'Horizontal', unidades: 380, logo: '/logos/solares.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'sauz-toluca', nombre: 'Arrayán', region: 'Estado de México', ciudad: 'Toluca', tipologia: 'Vertical', unidades: 156, logo: '/logos/sauz.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'cosmopol-coacalco', nombre: 'Urbania', region: 'Estado de México', ciudad: 'Coacalco', tipologia: 'Mixto', unidades: 198, logo: '/logos/cosmopol.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
+  { slug: 'central-park-bosque-real', nombre: 'Parque Central', region: 'Estado de México', ciudad: 'Huixquilucan', tipologia: 'Premium', unidades: 72, logo: '/logos/central-park.svg', ficha: true, storytelling: false, competencia: false, audiencias: false },
 ];
 
 export interface NavItem {
@@ -97,64 +97,64 @@ export interface HistorialItem {
   createdAt: string;
 }
 
-export const HISTORIAL_KEY = 'hu_historial';
-export const HISTORIAL_SEEDED_KEY = 'hu_historial_seeded_v1';
+export const HISTORIAL_KEY = 'nexus_historial';
+export const HISTORIAL_SEEDED_KEY = 'nexus_historial_seeded_v1';
 
 const DEMO_HISTORIAL: HistorialItem[] = [
   {
     id: "demo_1",
     tipo: "post",
     tipoLabel: "Post Instagram",
-    desarrollo: "Aukena",
+    desarrollo: "Zenith Residences",
     tono: "Aspiracional",
     audiencia: "Millennials inversores CDMX",
     channel: "Instagram",
     createdAt: new Date(Date.now() - 1000 * 60 * 18).toISOString(),
-    output: `✨ Vivir frente al mar deja de ser un sueño cuando decides que es una realidad.\n\nAukena Residences nació para quienes entienden que el tiempo es el bien más valioso — y merece gastarse bien.\n\n🌊 Vista al mar desde tu ventana\n🏡 Diseño arquitectónico de primer nivel\n🔐 Comunidad privada con amenidades premium\n\nQuedan pocas unidades disponibles en la Fase 2. Agenda tu visita antes de que alguien más tome tu lugar.\n\n👉 Link en bio para más información.\n\n#AukenaResidences #VidaFrenteAlMar #CancúnLujo #InversionInmobiliaria #PlayaCaribe`,
+    output: `✨ Vivir frente al mar deja de ser un sueño cuando decides que es una realidad.\n\nZenith Residences nació para quienes entienden que el tiempo es el bien más valioso — y merece gastarse bien.\n\n🌊 Vista al mar desde tu ventana\n🏡 Diseño arquitectónico de primer nivel\n🔐 Comunidad privada con amenidades premium\n\nQuedan pocas unidades disponibles en la Fase 2. Agenda tu visita antes de que alguien más tome tu lugar.\n\n👉 Link en bio para más información.\n\n#ZenithResidences #VidaFrenteAlMar #PlayaDelCarmen #InversionInmobiliaria #PlayaCaribe`,
   },
   {
     id: "demo_2",
     tipo: "email",
     tipoLabel: "Email / Newsletter",
-    desarrollo: "Turquesa",
+    desarrollo: "Coral Bay",
     tono: "Cálido",
     audiencia: "Familia joven CDMX",
     channel: "Mail",
     createdAt: new Date(Date.now() - 1000 * 60 * 60 * 3).toISOString(),
-    output: `Asunto: Tu familia merece Turquesa — y este es el momento\n\nHola,\n\nSabemos que buscar el hogar ideal puede sentirse abrumador. Por eso queremos simplificarte la decisión.\n\nTurquesa es el desarrollo que combina lo que más importa: diseño que enamora, espacios que respiran y una comunidad donde tus hijos pueden crecer seguros.\n\n¿Qué incluye tu nuevo hogar en Turquesa?\n\n• Cocina integral con islas\n• Cuartos amplios con iluminación natural\n• Patio trasero privado\n• Acceso a club de residentes: alberca, gimnasio y áreas verdes\n• Seguridad 24/7\n\nEsta semana tenemos visitas guiadas disponibles sin cita previa. Solo escríbenos y coordinamos.\n\nCon gusto,\nEquipo Turquesa`,
+    output: `Asunto: Tu familia merece Coral Bay — y este es el momento\n\nHola,\n\nSabemos que buscar el hogar ideal puede sentirse abrumador. Por eso queremos simplificarte la decisión.\n\nCoral Bay es el desarrollo que combina lo que más importa: diseño que enamora, espacios que respiran y una comunidad donde tus hijos pueden crecer seguros.\n\n¿Qué incluye tu nuevo hogar en Coral Bay?\n\n• Cocina integral con islas\n• Cuartos amplios con iluminación natural\n• Patio trasero privado\n• Acceso a club de residentes: alberca, gimnasio y áreas verdes\n• Seguridad 24/7\n\nEsta semana tenemos visitas guiadas disponibles sin cita previa. Solo escríbenos y coordinamos.\n\nCon gusto,\nEquipo Coral Bay`,
   },
   {
     id: "demo_3",
     tipo: "ad",
     tipoLabel: "Anuncio / Ad Copy",
-    desarrollo: "Mériden",
+    desarrollo: "Altamira",
     tono: "Directo",
     audiencia: "Inversionistas Monterrey",
     channel: "Megaphone",
     createdAt: new Date(Date.now() - 1000 * 60 * 60 * 9).toISOString(),
-    output: `📢 MÉRIDEN — El activo que tu portafolio necesitaba.\n\n**Headline:** Lujo en Mérida. Plusvalía garantizada. Entrega 2025.\n\n**Variante A:**\nMériden Cabo Norte | Departamentos premium en el corazón de Mérida.\nPreventa con precios de lanzamiento. Últimas unidades.\n→ Agenda tu asesoría\n\n**Variante B (retargeting):**\nSigues pensando en Mériden?\nEsta semana cerramos preventa de Fase 1.\nNo dejes pasar tu precio de entrada.\n→ Reserva hoy con $50,000\n\n**Variante C (awareness):**\nMérida es la ciudad del futuro de México.\nMériden es el lugar donde quieres estar cuando llegue ese futuro.\n→ Conoce el proyecto`,
+    output: `📢 ALTAMIRA — El activo que tu portafolio necesitaba.\n\n**Headline:** Lujo en Mérida Norte. Plusvalía en crecimiento. Entrega 2026.\n\n**Variante A:**\nAltamira Mérida Norte | Residencial premium en la zona de mayor plusvalía de Yucatán.\nPreventa con precios de lanzamiento. Últimas unidades.\n→ Agenda tu asesoría\n\n**Variante B (retargeting):**\n¿Sigues pensando en Altamira?\nEsta semana cerramos preventa de Fase 1.\nNo dejes pasar tu precio de entrada.\n→ Reserva hoy\n\n**Variante C (awareness):**\nMérida es la ciudad del futuro de México.\nAltamira es el lugar donde quieres estar cuando llegue ese futuro.\n→ Conoce el proyecto`,
   },
   {
     id: "demo_4",
     tipo: "carousel",
     tipoLabel: "Carrusel",
-    desarrollo: "Bonza",
+    desarrollo: "Cumbres",
     tono: "Inspiracional",
     audiencia: "Parejas jóvenes Querétaro",
     channel: "Carousel",
     createdAt: new Date(Date.now() - 1000 * 60 * 60 * 26).toISOString(),
-    output: `— Slide 1 —\n5 razones para elegir Bonza como tu próximo hogar\n\n— Slide 2 —\n01. Diseño que respira\nCasas con ventilación cruzada, iluminación natural y espacios interiores que no te hacen sentir encerrado.\n\n— Slide 3 —\n02. Comunidad activa\nVecinos que se conocen, áreas comunes que se usan y una cultura de convivencia que hace la diferencia.\n\n— Slide 4 —\n03. Todo cerca\nEscuelas, supermercados, hospitales y entretenimiento a menos de 10 minutos.\n\n— Slide 5 —\n04. Inversión inteligente\nQuerétaro creció 18% en plusvalía el año pasado. Bonza está en el corazón de ese crecimiento.\n\n— Slide 6 —\n05. Financiamiento a tu medida\nTrabajas con cualquier banco, crédito Infonavit o Fovissste. Te acompañamos en el proceso.\n\n— Slide 7 —\n¿Listo para dar el paso?\nAgenda tu visita este fin de semana. Sin presión, sin compromisos.\nSolo tú, tu familia y tu futuro hogar.`,
+    output: `— Slide 1 —\n5 razones para elegir Cumbres como tu próximo hogar\n\n— Slide 2 —\n01. Diseño que respira\nCasas con ventilación cruzada, iluminación natural y espacios interiores que no te hacen sentir encerrado.\n\n— Slide 3 —\n02. Comunidad activa\nVecinos que se conocen, áreas comunes que se usan y una cultura de convivencia que hace la diferencia.\n\n— Slide 4 —\n03. Todo cerca\nEscuelas, supermercados, hospitales y entretenimiento a menos de 10 minutos.\n\n— Slide 5 —\n04. Inversión inteligente\nQuerétaro lidera el crecimiento del Bajío. Cumbres está en el corazón de ese dinamismo.\n\n— Slide 6 —\n05. Financiamiento a tu medida\nTrabajas con cualquier banco, crédito Infonavit o Fovissste. Te acompañamos en el proceso.\n\n— Slide 7 —\n¿Listo para dar el paso?\nAgenda tu visita este fin de semana. Sin presión, sin compromisos.\nSolo tú, tu familia y tu futuro hogar.`,
   },
   {
     id: "demo_5",
     tipo: "blog",
     tipoLabel: "Blog / Artículo",
-    desarrollo: "Central Park",
+    desarrollo: "Parque Central",
     tono: "Educativo",
     audiencia: "Primerizos compradores",
     channel: "BookOpen",
     createdAt: new Date(Date.now() - 1000 * 60 * 60 * 48).toISOString(),
-    output: `# Cómo elegir tu primer hogar sin arrepentirte: guía para compradores primerizos\n\nComprar tu primera casa es una de las decisiones más importantes de tu vida. También puede ser una de las más confusas si no tienes claro qué buscar. Aquí te damos los criterios que realmente importan.\n\n## 1. Ubicación sobre todo lo demás\n\nEl diseño puede renovarse. La ubicación, no. Antes de enamorarte de una fachada, revisa qué tan cerca estás de tu trabajo, de las escuelas de tus hijos y de los servicios que usas a diario.\n\n## 2. Revisa el historial del desarrollador\n\nNo compres a un desarrollador que no puedas investigar. Busca proyectos anteriores, habla con residentes y verifica que las promesas de entrega se hayan cumplido.\n\n## 3. Entiende el financiamiento antes de visitar\n\nSaber cuánto puedes pagar te ahorra tiempo y expectativas frustradas. Habla con tu banco o asesor antes de visitar propiedades.\n\n## 4. Las amenidades no son extras — son parte del valor\n\nUn desarrollo con club de residentes, áreas verdes y seguridad privada no solo mejora tu calidad de vida: también aumenta la plusvalía de tu inversión.\n\n## Por qué Central Park es la opción ideal para primerizos\n\nCentral Park Bosque Real fue diseñado pensando en familias que compran su primer hogar. Proceso de compra transparente, asesoría personalizada y opciones de financiamiento flexibles para que tu primera experiencia sea positiva desde el inicio.`,
+    output: `# Cómo elegir tu primer hogar sin arrepentirte: guía para compradores primerizos\n\nComprar tu primera casa es una de las decisiones más importantes de tu vida. También puede ser una de las más confusas si no tienes claro qué buscar. Aquí te damos los criterios que realmente importan.\n\n## 1. Ubicación sobre todo lo demás\n\nEl diseño puede renovarse. La ubicación, no. Antes de enamorarte de una fachada, revisa qué tan cerca estás de tu trabajo, de las escuelas de tus hijos y de los servicios que usas a diario.\n\n## 2. Revisa el historial del desarrollador\n\nNo compres a un desarrollador que no puedas investigar. Busca proyectos anteriores, habla con residentes y verifica que las promesas de entrega se hayan cumplido.\n\n## 3. Entiende el financiamiento antes de visitar\n\nSaber cuánto puedes pagar te ahorra tiempo y expectativas frustradas. Habla con tu banco o asesor antes de visitar propiedades.\n\n## 4. Las amenidades no son extras — son parte del valor\n\nUn desarrollo con club de residentes, áreas verdes y seguridad privada no solo mejora tu calidad de vida: también aumenta la plusvalía de tu inversión.\n\n## Por qué Parque Central es la opción ideal para primerizos\n\nParque Central fue diseñado pensando en familias que compran su primer hogar. Proceso de compra transparente, asesoría personalizada y opciones de financiamiento flexibles para que tu primera experiencia sea positiva desde el inicio.`,
   },
 ];
 

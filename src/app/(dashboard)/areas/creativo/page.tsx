@@ -123,7 +123,7 @@ const VOICE_PRINCIPLES = [
   },
   {
     title: "Humano y cercano",
-    desc: "Hablamos de hogares, no de unidades. De familias y proyectos de vida, no de metros cuadrados.",
+    desc: "Hablamos de hogares y sueños, no de unidades. De familias y proyectos de vida.",
   },
   {
     title: "Con urgencia estratégica",

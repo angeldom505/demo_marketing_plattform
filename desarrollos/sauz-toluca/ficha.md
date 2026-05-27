@@ -1,44 +1,31 @@
 ---
-nombre: SAUZ VALLE DE TOLUCA, Estado de México
-region: Estado De Mexico
+nombre: Arrayán, Toluca, Estado de México
+region: Estado de México
 ---
 
-# SAUZ VALLE DE TOLUCA, Estado de México
+# Arrayán — Toluca, Estado de México
 
-**Región:** Estado De Mexico
+**Región:** Estado de México
 
-Precios: Casas desde 2,086,800 pesos mexicanos
-Ubicación: Calimaya, Estado de México.
-Link Google Maps: https://maps.app.goo.gl/SBEs6eGhhsRr6vrp6
+Precios: Casas desde $2,100,000 MXN.
+Ubicación: Toluca, Estado de México.
+Link Google Maps: https://maps.demo.nexus.ai/arrayan
 
 ## Descripción y Amenidades
 
-Desarrollo residencial rodeado de más de 20,000 metros cuadrados de áreas verdes, a 45 minutos de la CDMX y 30 minutos de Metepec.
-Amenidades: Cancha de fútbol 7, pet park, juegos infantiles, trotapista, cancha de basquetbol, asadores, cancha de pádel, andadores, gimnasio al aire libre, mesas de ping pong y áreas verdes.
-Links Generales
-Sitio Web de Sauz: https://www.hulifestyle.mx/casas-en-venta-calimaya-sauz
-Agendar visita a Sauz: https://meetings.hubspot.com/sauz1/meet-desarrollo-lifestyle-valle-del-sauz
+Arrayán es un desarrollo residencial rodeado de más de 20,000 m² de áreas verdes en el Valle de Toluca. A 45 minutos de la CDMX y 30 minutos de Metepec. Ideal para familias que buscan aire puro, tranquilidad y excelente conectividad.
 
-## Modelos Disponibles en Sauz
+Amenidades: Cancha de fútbol 7, pet park, juegos infantiles, trotapista, cancha de basketball, asadores, cancha de pádel, andadores, gimnasio al aire libre, mesas de ping pong, áreas verdes.
 
-Casa modelo Bresia: Cuenta con 98 metros cuadrados de construcción, 2 niveles, 2 habitaciones y 2.5 baños.
-Planta baja con cocina equipada, sala y comedor conectados, medio baño, jardín trasero, cuarto de lavado y 2 cajones de estacionamiento.
-Primer nivel con armario de blancos, habitación secundaria con clóset y baño completo, habitación principal con walk-in clóset y baño completo.
-Precio desde 2,086,800 pesos mexicanos.
-Mensualidad desde 22,000 pesos mexicanos.
-Link web de la Casa modelo Bresia: https://www.hulifestyle.mx/casas-en-venta-calimaya-sauz/bresia
-Recorrido Virtual de la Casa modelo Bresia: https://my.matterport.com/show/?m=vzEHYixPxEo
-Casa modelo Recinto: Cuenta con 133 metros cuadrados, 3 niveles, 3 habitaciones y 2.5 baños.
+## Links Generales
 
-### Planta baja con sala y comedor conectados, cocina equipada, cuarto de servicio techado, medio baño, acceso a jardín y 2 cajones de estacionamiento.
+Sitio Web: https://demo.nexus.ai/arrayan
+Agendar Visita: https://demo.nexus.ai/citas/arrayan
 
+## Modelos Disponibles
 
-### Primer nivel con 2 habitaciones con clósets de madera y baño completo compartido.
+**Modelo Arrayán (casa):** 98 m², 2 niveles, 2 recámaras, 2.5 baños, jardín trasero, 2 cajones. Precio desde $2,100,000 MXN.
 
+**Modelo Sauce (casa):** 133 m², 3 niveles, 3 recámaras, 2.5 baños, master suite con terraza y home office, jardín, 2 cajones. Precio desde $2,700,000 MXN.
 
-### Segundo nivel con master suite, terraza frontal, baño completo con walk-in closet y área de home office.
-
-Precio desde 2,659,800 pesos mexicanos.
-Mensualidad desde 27,000 pesos mexicanos.
-Link web de la Casa modelo Recinto: https://www.hulifestyle.mx/casas-en-venta-calimaya-sauz/recintosauz?hsLang=es-mx
-Recorrido Virtual de la Casa modelo Recinto: https://my.matterport.com/show/?m=7HjCfp9PomW
+**Modelo Fresno (casa):** 110 m², 2 niveles, 3 recámaras, 2 baños, patio trasero, 1 cajón. Precio desde $2,400,000 MXN.

@@ -110,7 +110,7 @@ Equipo {DESARROLLO}
 👉 Agenda tu recorrido gratis → [CTA]
 
 **Variante B (awareness):**
-Hay hogares y hay {DESARROLLO}.
+Hay un hogar esperándote en {DESARROLLO}.
 Descubre la diferencia que hace un espacio bien pensado.
 → Ver disponibilidad
 
